@@ -1,3 +1,4 @@
+baseURL = "qscpdomain.netlify.app/"
 [build]
 command = 'hugo'
 publish = 'public'
@@ -10,7 +11,7 @@ HUGO_VERSION = '0.105.0'
 command = 'hugo -F -b $DEPLOY_PRIME_URL'
 
 [context.deploy-preview]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
+command = "hugo -b $DEPLOY_PRIME_URL"
 
 [context.production]
 [context.production.environment]
