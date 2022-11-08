@@ -1,4 +1,5 @@
 baseURL= "https://qscpdomain.netlify.app"
+
 disableKinds:
   - section
   - taxonomy
