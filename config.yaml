@@ -1,4 +1,4 @@
-baseURL: "https://qscpdomain.netlify.app"
+baseURL= "https://qscpdomain.netlify.app"
 disableKinds:
   - section
   - taxonomy
