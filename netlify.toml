@@ -1,4 +1,4 @@
-baseURL= "qscpdomain.netlify.app/"
+baseURL= "https://qscpdomain.netlify.app"
 [build]
 command = 'hugo'
 publish = 'public'
