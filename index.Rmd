@@ -53,7 +53,7 @@ In short, this is a governmental program that is trying to reduce shark risk in 
 
 ## Downloading the Data
 
-Downloading the data in a format that contains all the information we want is a bit tricky. To make things easier, I gathered all the files in a zip file which you can download [here](https://github.com/mvisner/QSCP)
+Downloading the data in a format that contains all the information we want is a bit tricky. To make things easier, I gathered all the files in a zip file which you can download [here](https://github.com/mvisner/QSCP).
 Otherwise, you need to go to [QFISH](https://qfish.fisheries.qld.gov.au/) and run custom data queries on the site for each year. To get exactly the same tables, use the following parameters:
 
 \
