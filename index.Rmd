@@ -1,0 +1,1386 @@
+---
+title: "Geospatial Data Analysis with R"
+subtitle: "A Tutorial For Intermidiate R Users"
+author: "Michael Visner"
+date: "August 2023"
+output:
+  html_document:
+    includes:
+      before_body: hero-image.html
+      after_body: footer.html
+    css: style.css
+    highlight: haddock
+    toc: true
+    toc_float: true
+    toc_depth: 4
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
+
+\
+
+# Introduction
+\
+This tutorial is designed for R users that already have a basic understanding of R and it's functions and would like to improve their data wrangling and visualisation skills, but don't be scared, the functions and methods are not super complex. 
+Whether you are a Data/BI Analyst, programmer, student or just a data enthusiast, as long as you already gained a bit of confidence with R, this tutorial is for you! 
+
+**Spoiler - this is not another US election dataset tutorial!**
+
+As you know, data by itself is just a combination of numbers and characters and the purpose of analysing and visualising it is to tell a good story, but to tell a good story, you need interesting data.
+
+Back when I was a student, I remember learning R using the same sort of data every single time. US elections by state, GDP per capita, average household, etc. - always the same...Well, the reason I wrote this tutorial is because I think there are just not enough tutorials with interesting data out there. 
+So no, we will not go through the same old databases, instead this tutorial will teach you some R skills and will expose you to a story you have probably never heard of.
+
+\
+
+# The Data
+The tutorial makes use of catch data from a Shark Control Program in the State of Queensland, Australia.
+In short, this is a governmental program that is trying to reduce shark risk in the shores of Queensland (state in Australia) using nets and drumlines (which are some sort of a baited hook). 
+
+\
+
+*The data that stands in the base of this analysis was downloaded from [QFISH](https://qfish.fisheries.qld.gov.au/), an online data portal of the State of Queensland, Department of Agriculture and Fisheries. The data is publicly available under a Creative Commons Attribution 3.0 Australia (CC BY) licence.*
+
+\
+
+## Downloading the Data
+
+Downloading the data in a format that contains all the information we want is a bit tricky. To make things easier, I gathered all the files in a zip file which you can download [here](https://github.com/mvisner/QSCP).
+Otherwise, you need to go to [QFISH](https://qfish.fisheries.qld.gov.au/) and run custom data queries on the site for each year. To get exactly the same tables, use the following parameters:
+
+\
+
+![QFISH Query](Raw Data/how to get the data.png)\
+
+\
+
+# Let's Get Started
+
+
+## Loading R Libraries
+
+Here are most of the libraries we will be using in this tutorial:
+
+tidyverse,readxl,data.table,lubridate,janitor
+
+I assume that you already know what R libraries are and how to install and load libraries into your R environment, in case you forgot:
+
+Installing:
+```{r inst-libraries, results=FALSE,message=FALSE,warning=FALSE,eval=FALSE}
+
+#Installing Packages
+
+install.packages('tidyverse')
+install.packages('readxl')
+install.packages('data.table')
+install.packages('lubridate')
+install.packages('janitor')
+install.packages('ggpubr')
+```
+
+Loading:
+```{r libraries, results=FALSE,message=FALSE,warning=FALSE}
+library('tidyverse')
+library('readxl')
+library('data.table')
+library('lubridate')
+library('janitor')
+library('ggpubr')
+```
+
+This is the simplest way to install and load R libraries but in my view it is a bit clunky if using multiple R packages. In our case we only use 5 libraries, but what if you need 10 packages or more? What if they are already installed? what if you are writing a code used by different computers?
+
+For these reasons my preferred way to load libraries is by listing them all as a variable, and then loading them with a simple function. If the library is not already installed, the function will automatically install it for us:
+
+
+```{r libraries-v2, results=FALSE,message=FALSE,warning=FALSE}
+
+# Create a list of all the packages we need
+packages<-c('tidyverse','readxl','data.table','lubridate','janitor','ggpubr')
+
+
+# Create a variable that lists all the installed packages
+installed_packages <- packages %in% rownames(installed.packages())
+
+# Check which of the packages are already installed install them if they are not
+if (any(installed_packages == FALSE)) {
+  install.packages(packages[!installed_packages])
+}
+
+# Load all the libraries
+invisible(lapply(packages, library, character.only = TRUE))
+
+#Remove the variables we created
+rm(installed_packages,packages)
+```
+
+\
+
+Throughout this tutorial you will be able to see that I generally use some base R commands but mostly use dplyr commands (tidyverse library) which makes use of the pipe operator (%>%). If you haven't used dplyr before, I recommend you to practice it before doing this tutorial and also in general, it is commonly used among R users and is a crucial skill if you want to master programming with R. 
+
+
+## Preparing the Data
+
+I always find it easier to have a quick look at the data first to understand the data structure. Maybe the csv contains a blank row at the top? Are there any parameters we need to take into account when loading the data to R?
+
+### Explore
+Open the file with your preferred software, it can be MS excel, Google Sheets, Notepad, etc. 
+What is the most efficient way to load all the data into one dataframe in R ? Can you find any repetitive patterns? Can we develop a code that will allow us to automate this process for perhaps future updates?
+
+
+If you had a look at one, two, three or all the files you must have noticed the following:
+
+- They are all csv files
+- The first row could be removed
+- we can combine all files into one dataframe 
+- we can use the file name to create a 'year' column
+
+
+### Read and Combine
+
+As I mentioned, I always prefer to write plug and play code - i.e. a code that can be used by any machine with minimal inputs.  
+Theoretically, we could have a code that downloads the data and saves it, but we would still need to specify where we want to save the data. 
+What I usually do when working via a desktop environment, is set my default directory as the same folder where my R project is saved, and save all related data in the same folder - in our case the "Raw Data" folder.
+
+To set you directory to the same folder as the R project file:
+
+
+```{r read-and-combine, results=FALSE,message=FALSE,warning=FALSE,eval=FALSE}
+
+# default directory
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+```
+
+Then we want read all the files into one dataframe. To do so I use the list.files function. The first argument of the function specifies the source (where should the function look for the files), and the second argument specifies the pattern we want to find (what). When setting the pattern to ".csv" the function will look for all the csv files in the folder we specified. It is important to set full.names as TRUE so that we list the full directory path for each file. 
+
+```{r list-files, results=FALSE,message=FALSE,warning=FALSE,results=TRUE}
+
+
+# List all csv files in the folder
+# If you saved the data somewhere else, just edit the path below
+
+list.files('Raw Data/New Source (Qfish)',pattern = ".csv",full.names = TRUE)
+```
+
+\
+
+Now that we understand how this works, let's create a variable called "files" that we can use for listing all the csv files in that folder
+
+
+```{r list, results=FALSE,message=FALSE,warning=FALSE}
+
+
+# List all csv files in the folder
+# If you saved the data somewhere else, just edit the path below
+
+files<-list.files('Raw Data/New Source (Qfish)',pattern = ".csv",full.names = TRUE)
+```
+
+
+
+
+After we created a the "files" variable, we now need to load all the csv file names listed in this variable into one  dataframe. If you remember, based on our initial data observation, we also want to skip the first raw when loading the csv files and use each file's name to create a 'year' column. 
+
+Luckily we can do all of the above in a few lines of code. This is a bit complex if you haven't used much R in the past and you might find the next section complicated. the good news are that is probably the most complex command I used in this tutorial, so if you understand it, great! If not, see my explanation below but don't worry to much if you don't understand all the components. 
+
+
+
+Using the variable "files" we just created, we can use the lapply base function to load all the different csvs into one variable called "Data". We then create a function which uses the function 'read.csv' from tidyverse while skipping the first row. the argument - Year = files[x] - takes each file's name and adds it to a column called "Year"
+
+
+
+```{r combine, results=FALSE,message=FALSE,warning=FALSE}
+# Read and combine csvs
+# We use lapply to create a function that reads all csv in the 
+Data<-lapply(seq_along(files), function(x) transform(read.csv(files[x],skip = 1), Year = files[x]))
+```
+
+
+This function created a list of data frames. Since we are interested in one dataframe that contains all the data rather then a list of multiple data frames. We can convert the list using the rblindlist function:
+
+
+```{r bind, results=FALSE,message=FALSE,warning=FALSE}
+
+#Convert datalist to data frame
+Data<-rbindlist(Data,fill=TRUE,use.names = TRUE)
+
+#And since we no longer need our old variable, we can delete it
+rm(files)
+
+
+```
+
+We now successfully merged all the csv files into one data frame. If you want to see the dataset you can either open it using the R studio viewer or by using the view function:
+
+```{r view, results=FALSE,message=FALSE,warning=FALSE,eval = FALSE}
+
+#Open the viewer using a command
+view(Data)
+
+
+```
+
+Alternatively, you can use the head command to get a glimpse of the data
+
+```{r head, results=TRUE,message=FALSE,warning=FALSE}
+
+#Print the first 10 rows of the data frame
+head(Data,10)
+
+```
+
+\
+
+## Clean and Sort
+
+Now the real fun begins! We need to clean and sort our data so that we can make sense of it later. 
+
+### Year Column
+
+Remember we took the name of each csv file and converted it into a column called year - at the moment the this is a long string (text) that contains the path of each file. Let's extract the Year number and convert it to a numeric column. 
+
+```{r date-col2, results=FALSE,message=FALSE,warning=FALSE}
+
+#Convert file path string in year column to a number
+
+Data<-Data%>%
+  mutate(Year=as.numeric(
+    gsub(".*?([0-9]+).*", "\\1",Year)
+      )
+    )
+
+
+```
+
+And to check the new column
+
+```{r head2, results=TRUE,message=FALSE,warning=FALSE}
+
+#Print the first 10 rows of the data frame for column "Year" only
+head(Data$Year,5)
+
+```
+
+\
+
+### "Total" cells
+
+If you look at the data you will be able to see that each column has some values that also contain the word "total". This is because the data originally came from a query on QFISH which produced total per each species per month per year. Since we want to undo this process and create a dataset of all individual animals that were caught, we no longer need these values.
+
+
+```{r total-cells, results=FALSE,message=FALSE,warning=FALSE}
+
+#Remove "Total" cells
+Data<-Data[with(Data, !grepl("Total", paste(SpeciesName,LengthRange,SpeciesGroup,Gender,LengthCategory,
+                                            Fate,Beach,GearStatus,Area,Jan,Feb,Mar,Apr,May,Jun,
+                                            Jul,Aug,Sep,Oct,Nov,Dec))),]
+
+#Remove Grand.Total Column
+Data<-Data%>%
+  select(-Grand.Total)
+
+
+
+```
+
+\
+
+### Pivotting
+
+Have a look at the data again. As you can see, the data is aggregated by months. This is again a result of the data source.
+In order to "de-aggregate" the data we need to pivot the data from a 'wide' format to a 'long' format. 
+
+
+![wide to long](https://www.statology.org/wp-content/uploads/2021/12/wideLong1-1.png){height=400px}
+\
+
+*source: STATOLOGY, https://www.statology.org/long-vs-wide-data/*
+
+Basically what we want to do is take take all month columns (Jan-Dec) and convert them into one column called "Month". We want to convert the value in each month column into individual rows.
+To do this I use dplyr's "pivot_longer".
+
+
+```{r pivot, results=FALSE,message=FALSE,warning=FALSE}
+
+#Unpivot the data by months
+Data<-Data%>%
+  pivot_longer(cols = 11:22,
+               names_to = 'Month',
+               values_to = 'n',
+               values_drop_na = TRUE
+  )
+
+```
+
+Now let's check the data again:
+
+```{r view2, results=TRUE,message=FALSE,warning=FALSE}
+
+#Print the first 10 rows of the data frame
+head(Data,10)
+
+```
+
+You can see that we now have a new column "n" - this is a result of the 'pivot_longer' function we used before. Basically the value in 'n' is the same value that we originally had for each month column. So if the value for a particular species in Jan 2020 was 4, we now have one row for Jan 2020 where n=4.
+In order to completely "de-aggregate" the data, we need to 'explode' each row into multiple rows based on the value in 'n', so that if n=4, we will have 4 rows instead. 
+The following code does that using the uncount function:
+
+```{r pivot-part2, results=FALSE,message=FALSE,warning=FALSE}
+
+#"Unpivot" the data by months
+Data<-Data%>%
+  uncount(weights = n)
+
+```
+
+\
+
+### IDs 
+
+It is always a good practice to have a unique ID for each record in a database. 
+There are numerous ways to do this but since we are not going to use these IDs we can just do it the easy way by using the row number
+
+```{r add-ids, results=FALSE,message=FALSE,warning=FALSE}
+
+#ad iD Column
+Data<-Data%>%
+  mutate(ID=row_number())%>%
+  relocate(ID,.before = SpeciesName)
+
+```
+
+
+\
+
+### "Gear" Columns
+
+Currently, the "GearName" column is a string that contains 3 pieces of information.
+for example: "Kellys Beach Drum 0" contains the location name (e.g. "Kellys Beach"), gear type (Drum) and the gear number (0).
+This is valuable information that we can extract into separate columns:
+  
+```{r gear-column, results=FALSE,message=FALSE,warning=FALSE}
+
+#Extract drumline and net and gear number
+
+Data<-Data%>%
+  mutate(Feature=case_when(
+    str_detect(GearName,"Drum")==TRUE~'Drum Line',
+    TRUE~'Net'
+  ))%>%
+  mutate(Gear_Number=extract_numeric(GearName))
+
+
+#Edit specific values with missing gear values:
+
+substrRight <- function(x, n){
+  substr(x, nchar(x)-n+1, nchar(x))
+}
+
+Data$Gear_Number<-ifelse(is.na(Data$Gear_Number),as.numeric(substrRight(Data$GearName,2)),Data$Gear_Number)
+
+Data$Beach<-gsub('-.*','',Data$Beach)
+
+
+#remove old columns
+Data<-Data%>%
+  select(-GearName)
+
+```
+
+\
+
+### Date Column
+
+Now, something easier. In case we want to do any date related analysis later, we need a date column. Unfortunately we don't have enough information to create a column with the exact date. But since we have the month and the year, we can create a date column by adding the first day of each month. Note, this is not accurate for analysis that requires an exact date, but for visualising change over time (even on a monthly basis) it is better to have a date column in the data. 
+
+```{r date-col, results=FALSE,message=FALSE,warning=FALSE}
+
+#Create Date Column
+
+Data<-Data%>%
+  mutate(Date=dmy(paste0('01-',Month,'-',Year)))
+
+```
+
+\
+
+### Fix Beach Names
+
+This task was quite manual and I originally found the need to do it while trying to join this database to another database that specifies the location of each drumline/net. What I found was that the same location (beach) sometimes has different names or spelling. This means that any discrepancies in the data will cause an error when trying to match the data. 
+
+If you want to have a look yourself, here's an example: 
+
+
+```{r view3, results=TRUE,message=FALSE,warning=FALSE}
+
+
+Data%>%
+  filter(str_detect(Beach,'Bargara')==TRUE)%>%
+  distinct(Beach)
+
+```
+
+These are the same place spelled differently... If you want to find more cases, you can use the distinct function and list them all. Luckily I've done the job for you and you can just run the code below.
+
+```{r names, results=FALSE,message=FALSE,warning=FALSE}
+
+#Fix duplicated names
+
+Data$Beach[Data$Beach=='Bargara']<-'Bargara Beach'
+Data$Beach[Data$Beach=='Caloundra']<-'Caloundra Beach'
+Data$Beach[Data$Beach=='Currimundi']<-'Currimundi Beach'
+Data$Beach[Data$Beach=='Hyatt Regency Resort']<-'Hyatt Resort'
+Data$Beach[Data$Beach=='Mooloolaba']<-'Mooloolaba Beach'
+Data$Beach[Data$Beach=='Nobby Beach']<-'Nobbys Beach'
+Data$Beach[Data$Beach=='Oaks Beach']<-'Oak Beach'
+Data$Beach[Data$Beach=='Sheraton Mirage Beach']<-'Sheraton Mirage'
+Data$Beach[Data$Beach=='Buchans']<-'Buchans Point Beach'
+Data$Beach[Data$Beach=='Elkhorn Avenue']<-'Elkhorn Ave'
+Data$Beach[Data$Beach=='Clifton']<-'Clifton Beach'
+Data$Beach[Data$Beach=='Maroochydore Beach']<-'Maroochydore'
+Data$Beach[Data$Beach=='Mullambin Beach']<-'Mulambin Beach'
+Data$Beach[Data$Beach=='Narrowneck Beach']<-'Narrowneck'
+Data$Beach[Data$Beach=='North Burleigh']<-'North Burleigh Beach'
+Data$Beach[Data$Beach=='Northcliffe Beach']<-'Northcliffe'
+Data$Beach[Data$Beach=='Palarenda Beach']<-'Pallarenda Beach'
+Data$Beach[Data$Beach=='South Lamberts']<-'Sth Lamberts Beach'
+Data$Beach[Data$Beach=='Staghorn Avenue']<-'Staghorn Ave'
+Data$Beach[Data$Beach=='Surfers Paradise']<-'Surfers Paradise Beach'
+Data$Beach[Data$Beach=='Trinity']<-'Trinity Beach'
+Data$Beach[Data$Beach=='Wurtulla Beach']<-'Wurtulla'
+Data$Beach[Data$Beach=='Yeppoon Beach']<-'Yeppoon'
+Data$Beach[Data$Beach=='Yorkeys']<-'Yorkeys Knob'
+Data$Beach[Data$Beach=='Holloways']<-'Holloways Beach'
+Data$Beach[Data$Beach=='Narrowneck']<-'Narrow Neck'
+Data$Beach[Data$Beach=='Smart 507 Mullambin Beach']<-'Mullambin Beach'
+Data$Beach[Data$Beach=='Smart 555 Tanby Point']<-'Tanby Point'
+Data$Beach[Data$Beach=='Smart 597 Emu Park']<-'Emu Park'
+Data$Beach[Data$Beach=='Smart 575 Fishermans Beach']<-'Fishermans Beach'
+Data$Beach[Data$Beach=='Smart 552 Tanby Point']<-'Tanby Point'
+Data$Beach[Data$Beach=='Smart 606 Emu Park']<-'Emu Park'
+Data$Beach[Data$Beach=='Smart 507 Mullambin Beach']<-'Mullambin Beach'
+Data$Beach[Data$Beach=='Smart 576 Fishermans Beach']<-'Fishermans Beach'
+Data$Beach[Data$Beach=='Smart 519 Mullambin Beach']<-'Mullambin Beach'
+Data$Beach[Data$Beach=='Smart 577 Fishermans Beach']<-'Fishermans Beach'
+Data$Beach[Data$Beach=='Smart 605 Emu Park']<-'Emu Park'
+Data$Beach[Data$Beach=='Smart 577 Fishermans Beach']<-'Fishermans Beach'
+Data$Beach[Data$Beach=='Smart 577 Emu Park']<-'Emu Park'
+Data$Beach[Data$Beach=='Mullambin Beach']<-'Mulambin Beach'
+Data$Beach[Data$Beach=='Smart 520 Tanby Point']<-'Tanby Point'
+Data$Beach[Data$Beach=='Smart 520 Mullambin Beach']<-'Mulambin Beach'
+Data$Beach[Data$Beach=='Yaroomba']<-'Yaroomba Beach'
+
+
+#Change Area Names to fit coordinate dataset (joined in the next step)
+Data$Area<-ifelse(Data$Beach=='Caloundra Beach','Sunshine Coast South & Bribie Island',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Currimundi Beach','Sunshine Coast South & Bribie Island',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Hyatt Resort','Sunshine Coast North',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Mooloolaba Beach','Sunshine Coast South & Bribie Island',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Yaroomba Beach','Sunshine Coast North',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Point Cartwright','Sunshine Coast South & Bribie Island',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Wurtulla','Sunshine Coast South & Bribie Island',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Moffat Beach','Sunshine Coast South & Bribie Island',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Alexandra Headland','Sunshine Coast South & Bribie Island',Data$Area)
+Data$Area<-ifelse(Data$Beach=='Buddina Beach','Sunshine Coast South & Bribie Island',Data$Area)
+
+
+```
+
+\
+
+### Join Location Table
+
+To make the data more interesting, let's add a location attribute so that we can map the data as well later on. 
+
+The first thing we need to to is to load the new data
+
+```{r load-locations, results=FALSE,message=FALSE,warning=FALSE}
+
+
+#Read Gear Locations csv
+
+GearLocations<-read.csv("Raw Data/Gear_Locations.csv",header = TRUE)
+
+```
+
+Now let's look at the data
+
+```{r view4, results=TRUE,message=FALSE,warning=FALSE}
+
+head(GearLocations)
+
+```
+
+
+Which columns does this data frame has in common with our data frame? Which columns are additional?
+If this was a a bigger data frame with 50+ columns than we would probably check this out using different functions that are available in R. However since we have a relatively small number of columns. We can easily see that except for the x and y columns (=coordinates), all other columns can be seen in both data frames. 
+
+Since each row has a unique set of coordinates, we need to use all common columns to correctly match between our data frame and the location data frame. This is done by specifying multiple columns in the join function. 
+
+
+```{r join-locations, results=FALSE,message=FALSE,warning=FALSE}
+
+
+#Change column names in new data frame so that they match
+
+GearLocations<-GearLocations%>%
+  rename(Area=Beach,Beach=Location)
+
+
+#Join new gear location data to the dataframe
+
+Data<-left_join(Data,GearLocations,by=c('Beach','Area','Feature','Gear_Number'))
+
+
+```
+
+\
+
+### Define Species 
+
+Before we define targeted shark species in our data, there is a small fix that needs to be applied first on the species name column. Similar to the issue with the beach name column, I spotted this issue while working with the data.
+
+
+```{r fix-species, results=FALSE,message=FALSE,warning=FALSE}
+
+#fix some species names
+
+Data$SpeciesName<-ifelse(Data$SpeciesName=='Common Blacktip Wha','Common Blacktip Whaler',Data$SpeciesName)
+Data$SpeciesName<-ifelse(Data$SpeciesName=='Eagle Ray *','Eagle Ray',Data$SpeciesName)
+Data$SpeciesName<-ifelse(Data$SpeciesName=='Hammerhead Shark *','Hammerhead Shark',Data$SpeciesName)
+Data$SpeciesName<-ifelse(Data$SpeciesName=='Wobbegong *','Wobbegong',Data$SpeciesName)
+Data$SpeciesName<-ifelse(Data$SpeciesName=='Devilray *','Devilray',Data$SpeciesName)
+Data$SpeciesName<-ifelse(Data$SpeciesName=='Shovelnosed Ray *','Shovelnosed Ray',Data$SpeciesName)
+
+```
+
+
+Similar to the location data we need to load the new data and join it to our dataframe
+
+
+```{r fix-species2, results=FALSE,message=FALSE,warning=FALSE}
+
+#Load targeted species dataset
+targeted_sharks<-read.csv('Raw Data/Targeted_Shark_Species.csv',header = TRUE)
+#Change column name to be identical as main data
+targeted_sharks<-targeted_sharks%>%
+  rename(SpeciesName=Name)
+
+
+#Join Targeted Shark Dataset to main dataset
+Data<-left_join(Data,targeted_sharks,by="SpeciesName")
+
+#Create value for all non-targeted species
+Data$Targeted<-ifelse(is.na(Data$Targeted),'Non_Targeted',Data$Targeted)
+
+```
+
+
+At the time of writing this tutorial, 2023 is not over yet, so To avoid combining any incomplete data, I filtered the data out. If you downloaded the 2023 data, then feel free to skip this step. 
+
+```{r filteryear, results=FALSE,message=FALSE,warning=FALSE}
+
+Data<-Data%>%
+  filter(Year!=2023)
+
+```
+
+\
+
+### Finish
+
+That's it the data is ready!! 
+If you want, you can export the data frame as a csv and use it in any data visualisation platform you like.  
+
+```{r write-data, results=FALSE,message=FALSE,warning=FALSE,eval=FALSE}
+
+write_csv(Data,'Data.csv')
+
+```
+
+Now it's time to start visualising all this data with R!
+
+\
+
+## Data Analysis
+
+### Basics
+
+Let's start with basic calculations to get an overview of the data such as how many animals where caught in the program (for the years we have data for)? How many of them are sharks compared to other species? What are the percentages for shark vs non-shark?
+
+I personally think that the easiest way to answer these kind of questions is with 'dplyr' and another great library that makes life much easier is 'janitor', let's check it out. 
+
+
+Using dplyr:
+
+```{r total, results=TRUE,message=FALSE,warning=FALSE}
+
+#Total animals caught
+
+Data%>%
+  summarise(total=n())
+
+#since we know that each row represents 1 animal, we can also just count the total number of rows using 
+
+nrow(Data)
+
+```
+
+```{r total2, results=TRUE,message=FALSE,warning=FALSE}
+
+#Total animals caught by species group
+
+#using dplyr
+
+Data%>%
+  #this will give us the total number per species group
+  group_by(SpeciesGroup)%>%
+  summarise(total=n())%>% 
+  #and this to get the percentages per each group
+  ungroup()%>%
+  mutate(percent=total/sum(total)*100)
+
+
+
+```
+
+Alternatively, we can just use the 'janitor' library with a much simpler code
+
+
+```{r total3, results=TRUE,message=FALSE,warning=FALSE}
+
+Data%>%
+  tabyl(SpeciesGroup)%>%
+  mutate(percent=percent*100)%>%
+  arrange(desc(percent))
+
+
+```
+
+Using dplyr and tabyl we can create many easy function to get some basic statics of the data. Here are a few more examples:
+
+```{r total4, results=TRUE,message=FALSE,warning=FALSE}
+
+#sharks and non-sharks (grouping all other categories together)
+
+Data%>%
+  mutate(shark=case_when(
+  SpeciesGroup=='Shark'~'shark',
+  TRUE~'non-shark'
+  ))%>%
+  tabyl(shark)%>%
+  mutate(percent=percent*100)
+
+```
+
+
+```{r total4.1, results=TRUE,message=FALSE,warning=FALSE}
+#targeted species vs non- targeted
+
+Data%>%
+  tabyl(Targeted)
+
+```
+
+
+
+```{r total5, results=TRUE,message=FALSE,warning=FALSE}
+#targeted species vs non- targeted
+
+Data%>%
+  tabyl(Targeted,Fate)%>%
+  adorn_percentages()
+
+```
+
+
+
+```{r total5.2, results=TRUE,message=FALSE,warning=FALSE}
+#Total survival rate all
+
+Data%>%
+  tabyl(Fate)
+
+```
+
+
+
+
+```{r total6, results=TRUE,message=FALSE,warning=FALSE}
+#species and fate
+
+Data%>%
+  tabyl(SpeciesGroup,Fate)%>%
+  adorn_percentages()
+
+```
+
+```{r total7, results=TRUE,message=FALSE,warning=FALSE}
+#top 10 most caught species
+
+Data%>%
+  group_by(SpeciesName)%>%
+  summarise(count=n(),Targeted=Targeted)%>%
+  distinct()%>%
+  ungroup()%>%
+  slice_max(count,n=10)
+
+```
+
+
+\
+
+
+### More Advanced Analysis
+
+It's time for something a bit more complex
+
+```{r complex1, results=TRUE,message=FALSE,warning=FALSE}
+#most caught species
+
+Data%>%
+  group_by(SpeciesName)%>%
+  summarise(count=n(),Targeted=Targeted)%>%
+  distinct()%>%
+  ungroup()%>%
+  slice_max(count,n=10)
+
+```
+And more examples:
+
+```{r complex2, results=TRUE,message=FALSE,warning=FALSE}
+#Top locations where any species is caught
+
+Data%>%
+  group_by(Beach)%>%
+  summarise(count=n())%>%
+  distinct()%>%
+  ungroup()%>%
+  slice_max(count,n=10)
+
+```
+
+```{r complex3, results=TRUE,message=FALSE,warning=FALSE}
+#Top locations where most un-targeted species are caught
+
+Data%>%
+  group_by(Beach,Targeted)%>%
+  summarise(n=n())%>%
+  pivot_wider(names_from = Targeted,values_from = n)%>%
+  mutate(Total=sum(Targeted,Non_Targeted))%>%
+  arrange(desc(Non_Targeted))
+
+  
+```
+
+Alternatively you could use something as short as:
+
+```{r complex3alt, results=FALSE,message=FALSE,warning=FALSE,eval=FALSE}
+
+Data%>%
+  tabyl(Beach,Targeted)
+```
+
+
+
+
+
+```{r complex4, results=TRUE,message=FALSE,warning=FALSE}
+#Top locations where most un-targeted species are caught, but this time let's use percentages out of total
+
+Data%>%
+  tabyl(Beach,Targeted)%>%
+  group_by(Beach)%>%
+  mutate(Total=sum(Non_Targeted,Targeted))%>%
+  mutate(Non_Targered_=Non_Targeted/Total*100,
+         Targered_=Targeted/Total*100)%>%
+  summarise(Non_Targered_,Targered_)%>%
+  arrange(desc(Non_Targered_))
+
+
+```
+
+\
+
+### Correlation Analysis
+
+I was personally very curios to see if there is a correlation between the use of nets and animal death. In other words, are nets more lethal than drumlines and are they effective for catching targeted species?
+
+```{r cor1, results=TRUE,message=FALSE,warning=FALSE}
+
+
+#correlation net vs death rate 
+
+cor_net_death<-Data%>%
+  #aggregating by beach and feature
+  group_by(Beach,Feature)%>%
+  summarise(n=n())%>%pivot_wider(names_from=c(Feature),values_from=n)%>%
+  replace(is.na(.),0)%>%
+  #join to same dataset aggregated by beach and targeted
+  left_join(Data%>%
+  group_by(Beach,Fate)%>%
+  summarise(n=n())%>%pivot_wider(names_from=c(Fate),values_from=n)%>%
+  replace(is.na(.),0),by="Beach")%>%
+  mutate(total=Dead+Alive)%>%
+  #creating proportions for correlation
+  mutate(prop_dead=Dead/total,prop_net=Net/total,prop_alive=1-prop_dead)%>%
+  #removing irrelevant values
+  filter(prop_net<1 & prop_net>0)
+
+
+#Pearson's correlation test
+
+cor(cor_net_death$prop_net,cor_net_death$prop_dead)
+
+
+```
+The correlation coefficient is ~0.7 which indicates a strong correlation between the proportion of deaths and the proportion of net usage. In other words, the more animals caught in a location by net, the higher the possibility that their fate will be death. 
+
+
+
+```{r cor2, results=TRUE,message=FALSE,warning=FALSE}
+
+
+#correlation net vs non-targeted
+
+cor_net_target<-Data%>%
+  group_by(Beach,Feature)%>%
+  summarise(n=n())%>%pivot_wider(names_from=c(Feature),values_from=n)%>%
+  replace(is.na(.),0)%>%
+  left_join(Data%>%
+              group_by(Beach,Targeted)%>%
+              summarise(n=n())%>%pivot_wider(names_from=Targeted,values_from=n)%>%
+              replace(is.na(.),0),by="Beach")%>%
+  mutate(total=sum(Targeted,Non_Targeted))%>%
+  mutate(prop_non_targeted=Non_Targeted/total,prop_net=Net/total,prop_targeted=1-prop_non_targeted)%>%
+  filter(prop_net<1 & prop_net>0)
+
+
+#Pearson's correlation test
+
+cor(cor_net_target$prop_net,cor_net_target$prop_non_targeted)
+
+
+```
+The correlation coefficient is ~0.8 which indicates a very strong correlation between the proportion of  and of net usage and the proportion of non-targeted species caught. In other words, the more animals caught in a location by net, the higher the possibility that they will be non-targeted species. 
+
+
+
+Try to think of other analysis you could do? More correlations? Regressions? Get creative, there are so many possibilities !
+
+\
+
+# Data Visualisation
+
+```{r styles, results=TRUE,message=FALSE,warning=FALSE}
+
+# Plotting Style
+PlotStyle<-theme(plot.title = element_text(family = "Arial", face = "bold", size = (15),hjust = 0.5), 
+                 legend.title = element_text(colour = 'black',  face = "bold.italic", family = "Arial"), 
+                 legend.text = element_text(face = "italic", colour='black',family = "Arial"), 
+                 axis.title = element_text(family = "Arial", size = (10), colour = "black"),
+                 axis.text = element_text(family = "Courier", colour = "black", size = (10)))
+
+
+# Colour Palette 
+
+
+colors<- c('#3b4395','#00a0a0','navy','#800000','#09AD50','#7B0CB0','#B05B05','#AD0980','#17283B','#AC482B','#D42415','#2DE6FA','#80DE1D','#2156FF','#3D4F80','#FF73EA')
+
+```
+
+\
+
+## Total Numbers
+
+### Caught/Death Rate
+
+
+```{r plot-totals, results=TRUE,message=FALSE,warning=FALSE}
+#should have total animals caught and survival rate over the years (2 sided y bar)
+
+
+Data%>%
+  group_by(Year,Fate)%>%
+  summarise(n=n())%>%
+  pivot_wider(names_from = Fate,values_from = n)%>%
+  mutate(Total=sum(Dead,Alive))%>%
+  mutate(perc_alive=Alive/Total,perc_dead=Dead/Total)%>%
+  ggplot(aes(x=Year,y=Total))+
+  geom_col(aes(y=Total),alpha=0.8,fill='#0B9EB8')+
+  geom_line(aes(y=perc_dead*1000),size=1,colour='#6B1111')+
+    scale_y_continuous(
+    name = 'Total Caught',
+    sec.axis = sec_axis(~./1000,name = 'Death Rate',labels = scales::percent ))+
+    scale_x_continuous(breaks = seq(2001,2022,by=2))+
+  geom_text(aes(label = Total, y = Total-40),angle=90) +
+  PlotStyle+
+  theme(
+    axis.text.y.right = element_text(colour='#6B1111'),
+    axis.title.y.right = element_text(colour='#6B1111')
+    
+  )+
+  labs(title = 'Total Caught and Death Rate')
+
+
+  
+
+
+
+```
+
+### Dead vs Alive
+
+```{r plot-dead-alive, results=TRUE,message=FALSE,warning=FALSE}
+
+
+Data%>%
+  group_by(Year,Targeted,Fate)%>%
+  summarise(n=n())%>%
+  mutate(n=case_when(Fate=='Dead'~-n,TRUE~n))%>%
+  mutate(Targeted=replace(Targeted, Targeted=='Non_Targeted', 'Non Targeted'))%>%
+  mutate(Group=paste(Fate,'-',Targeted))%>%
+  group_by(Year,Fate)%>%
+  mutate(Total=sum(n))%>%
+  ungroup()%>%
+  arrange(Year,Fate,n)%>%
+  ggplot(aes(x=Year,y=n,fill=Group))+
+  geom_bar(stat="identity", position="stack",alpha=0.7)+
+  PlotStyle+
+    scale_fill_manual(values =c('#066B23','#30B856','#B83030','#6B1111'))+
+  scale_y_continuous(labels = abs,limits=c(-700,700))+
+  scale_x_continuous(breaks = seq(2001,2023,by=2))+
+  geom_text(data = ~subset(., Fate=='Alive'), aes(label = Total, y = Total),angle=90,hjust=-0.1) +
+  geom_text(data = ~subset(., Fate=='Dead'), aes(label = -Total, y = Total),angle=90,hjust=1)+
+  labs(title = 'Dead or Alive?',x='Year',y='Total Number by Fate (Dead/Alive)')
+
+  
+
+
+
+```
+
+\
+
+## Death Rate
+
+### By Species Group
+
+
+```{r plot-death-rate-by-species-group, results=TRUE,message=FALSE,warning=FALSE}
+
+
+Data%>%
+  group_by(SpeciesGroup,Year,Feature,Fate)%>%
+  summarise(n=n())%>%
+  pivot_wider(values_from = n,names_from = Fate)%>%
+  replace(is.na(.), 0)%>%
+  group_by(SpeciesGroup,Feature,Year)%>%
+  mutate(Percentage_Alive=Alive/sum(Alive,Dead),Percentage_Dead=Dead/sum(Alive,Dead))%>%
+  group_by(SpeciesGroup,Feature)%>%
+  summarise(ave_dead=mean(Percentage_Dead),ave_dead=mean(Percentage_Dead))%>%
+  mutate(SpeciesGroup=fct_reorder(SpeciesGroup,desc(ave_dead)))%>%
+  ggplot(aes(x=SpeciesGroup,y=ave_dead,fill=SpeciesGroup))+
+  geom_col(alpha=0.7)+
+  coord_flip()+
+  PlotStyle+
+  theme(
+    legend.position = 'none')+
+  # scale_fill_manual(values =c('#6B1111','#6BB830','#0C6B63','#0BB8AA','#0C6B63'))+  
+  
+  scale_fill_manual(values =c('#0C6B63','#0BB8AA','#6B1111','#6BB830'))+
+  scale_y_continuous(labels = scales::percent ,limits=c(0,1))+
+  geom_text( aes(label = paste0(round(ave_dead,2)*100,'%'), y = ave_dead),hjust=-0.1) +
+  labs(title = 'Death Rate by Species Group and Feature',x='Species Group',y='Average Death Rate')+
+  facet_wrap(~Feature)
+
+
+```
+
+\
+
+### By Species Name
+
+```{r plot-death-rate-by-species, results=TRUE,message=FALSE,warning=FALSE,fig.dim=c(8,8)}
+
+
+Data%>%
+  group_by(SpeciesName,SpeciesGroup,Targeted,Fate)%>%
+  summarise(n=n())%>%
+  pivot_wider(values_from = n,names_from = Fate)%>%
+  replace(is.na(.), 0)%>%
+  filter(Dead+Alive>=25)%>%
+  group_by(SpeciesName,SpeciesGroup)%>%
+  summarise(Targeted=Targeted,Percentage_Alive=Alive/sum(Alive,Dead),Percentage_Dead=Dead/sum(Alive,Dead))%>%
+  arrange(desc(SpeciesGroup),Percentage_Dead)%>%
+  ungroup()%>%
+  mutate(num=row_number())%>%
+  mutate(Targeted=replace(Targeted, Targeted=='Non_Targeted', 'Non Targeted'))%>%
+  mutate(SpeciesName=fct_reorder(SpeciesName,num))%>%
+  ggplot(aes(x=SpeciesName,y=Percentage_Dead))+
+  geom_segment(aes(x = SpeciesName, xend=SpeciesName,y=0,yend=Percentage_Dead,colour = SpeciesGroup),
+               position = position_dodge(width = 1),size=1)+
+  geom_point(aes(colour=SpeciesGroup,shape=Targeted),size = 7)+
+  coord_flip()+
+  scale_color_manual(values =c('#0C6B63','#0BB8AA','#6B1111','#6BB830'))+
+  geom_text(aes(label = round(Percentage_Dead,2)*100 ), color = "white", size = 3)+
+  PlotStyle+
+  scale_y_continuous(labels = scales::percent ,limits=c(0,1))+
+  labs(title = 'Death Rate by Species (n>=25)',y='Death Rate',x='Species')
+
+```
+\
+
+## Targeted vs Not
+
+```{r plot-net-non-targeted-rate, results=TRUE,message=FALSE,warning=FALSE}
+
+
+Data%>%
+  mutate(Targeted=str_replace(Targeted,'Non_Targeted','Non-Targeted'))%>%
+  group_by(Year)%>%
+  ggplot(aes(Year, after_stat(count), fill = Targeted)) +
+  geom_density(position = "fill",alpha=.7)+
+  scale_y_continuous(labels = scales::percent ,limits=c(0,1))+
+  scale_x_continuous(breaks = seq(2001,2023,by=2))+
+  PlotStyle+
+  scale_fill_manual(values =c('#2156FF','#D42415'))+
+  scale_y_continuous(labels = scales::percent ,limits=c(0,1))+
+  scale_x_continuous(breaks = seq(2001,2022,by=2),guide = guide_axis(check.overlap = TRUE))+
+  labs(title = 'Percentage of Targeted VS Non-Targeted Species \n by Feature',x='Year',y='Percent of Animals Caught')+
+  facet_wrap(~Feature)
+
+
+    
+```
+\
+
+
+```{r plot-net-non-targeted-rate2, results=TRUE,message=FALSE,warning=FALSE}
+
+
+Data%>%
+  mutate(Targeted=str_replace(Targeted,'Non_Targeted','Non-Targeted'))%>%
+  mutate(Group=paste(Targeted,'-',Fate))%>%
+  group_by(Year)%>%
+  ggplot(aes(Year, after_stat(count), fill = Group)) +
+  geom_density(position = "fill",alpha=.7)+
+  scale_y_continuous(labels = scales::percent ,limits=c(0,1))+
+  scale_x_continuous(breaks = seq(2001,2023,by=2))+
+  PlotStyle+
+  scale_fill_manual(values =c('#14C7FF','#137DE8','#B83030','#6B1111'))+
+  scale_y_continuous(labels = scales::percent ,limits=c(0,1))+
+  scale_x_continuous(breaks = seq(2001,2022,by=2),guide = guide_axis(check.overlap = TRUE))+
+  labs(title = 'Percentage of Targeted VS Non-Targeted Species \n by Feature and Fate',x='Year',y='Percent of Animals Caught')+
+  facet_wrap(~Feature)
+
+    
+```
+
+## Correlation
+
+
+```{r plot-cor1 , results=TRUE,message=FALSE,warning=FALSE}
+
+cor_net_death%>%
+  ggplot(aes(x=prop_net,y=prop_dead))+
+    geom_point(position ='jitter',colour='#00a0a0',size=1.5)+
+    PlotStyle+
+    stat_smooth(geom='line',alpha=0.8,method='lm',formula = 'y~x',se=FALSE,colour='navy',linewidth=1)+
+    stat_cor(method = 'pearson',label.x = 0, label.y = 1,p.accuracy = 0.001, r.accuracy = 0.01)+
+    labs(title = "Correlation Analysis",x='Proportion of Net Usage',y='Proportion of Deaths')
+    
+```
+
+```{r plot-cor2 , results=TRUE,message=FALSE,warning=FALSE}
+
+cor_net_target%>%
+  ggplot(aes(x=prop_net,y=prop_non_targeted))+
+    geom_point(position ='jitter',colour='#00a0a0',size=1.5)+
+    PlotStyle+
+    stat_smooth(geom='line',alpha=0.8,method='lm',formula = 'y~x',se=FALSE,colour='navy',linewidth=1)+
+    stat_cor(method = 'pearson',label.x = 0, label.y = 1,p.accuracy = 0.001, r.accuracy = 0.01)+
+    labs(title = "Correlation Analysis",x='Proportion of Net Usage',y='Proportion of Non-targeted Species')
+    
+```
+
+\
+
+# Maps
+
+## How to Make Maps?
+
+Starting with an important note. Even though the following section does not include any complex GIS analysis, if you have never worked with location data before, I strongly recommend you to go online and look at other resources that explain the topic more thoroughly. Any simple Google search will do the trick, otherwise a good starting point can be "Geocomputation with R" - https://r.geocompx.org/index.html. 
+
+Working with location data requires some GIS (Geographic Information Systems) libraries to be installed and loaded. Theoretically, R-base and some other data analysis libraries have some basic functions for analysing and visulaising geographic data, however I find the easiest way is to use GIS libraries that are specifically made for that purpose.
+
+### Libraries
+
+To begin, install the following packages:
+
+```{r inst-libraries-gis, results=FALSE,message=FALSE,warning=FALSE,eval=FALSE}
+
+#Installing Packages
+
+install.packages('sf')
+install.packages('tmap')
+install.packages('ggspatial')
+
+```
+
+And then load them:
+
+```{r load-libraries-gis, results=FALSE,message=FALSE,warning=FALSE}
+
+#Installing Packages
+
+library('sf')
+library('tmap')
+library('ggspatial')
+
+```
+
+### Basic Maps
+
+As you saw, our dataframe includes coordinates (X,Y) for each gear location. In order to visualise the data geographically, we must first define the columns with the geographic attributes. Generally, there are different types of coordinate reference systems (CRS)  - I won't get into that topic- but what you need to know is that our data is stored in the same CRS as Google Maps which is called CRS:4326.
+
+Before we get into complex visualistations, let's start with the basics.
+
+First check, do we have location attributes for the entire dataset? Or in other words, are there any missing coordinates? (it's enough if we just check x or y to get the answer)
+
+```{r missing-coords, results=TRUE,message=FALSE,warning=FALSE}
+
+#check for any N/As in column x
+any(is.na(Data$x))
+
+
+```
+This returned a true value, which means yes, we do have some missing values. As you know, there a different ways to impute missing data,However to keep things simple, let's just ignore the rows with missing coordinates. Second check - Are the coordinate values good and match the "real world" ? And the best way to check this is by visualising the data!
+
+Note that there are endless ways you can do this either with ggplot, leaflet, tmap, mapdeck, etc. 
+
+With ggplot (without converting the dataframe):
+
+```{r plot-map, results=TRUE,message=FALSE,warning=FALSE}
+
+#Create a shape of Australia using ggplot
+
+au_shape<-map_data("world")%>%filter(region=='Australia')
+
+
+Data%>%
+  filter(!is.na(x))%>% #filtering out N/A coordinates that can't be visualised
+  ggplot()+
+  geom_polygon(data=au_shape,aes(x=long,y=lat,group=group),color='black',fill='white')+
+  geom_point(aes(x=x,y=y),color='red')
+
+
+
+```
+
+With ggplot and converting the dataframe (better practice)
+
+```{r plot-map1.1, results=TRUE,message=FALSE,warning=FALSE}
+
+Data%>%
+  filter(!is.na(x))%>% #filtering out N/A coordinates that can't be visualised
+  st_as_sf(coords = c('x','y'),crs=4326)%>% #converting the data into an sf (geographic) dataframe
+  ggplot()+
+  annotation_map_tile("osm")+ #calling for open street maps (OSM) basemap
+  geom_sf()
+
+
+
+```
+
+
+If you want to do that with tmap, use the code below. This might take some time to load since we have a lot of points in different locations. the nice thing about tmap though is that you can easily create interactive maps without setting to many parameters.
+I personally think that tmap is usually the easiest way to do it if you don't have too much spatial data, but feel free to use your preferred method.
+
+
+```{r plot-map1, results=TRUE,message=FALSE,warning=FALSE,eval=FALSE}
+#set tmap to interactive map view
+tmap_mode('view')
+
+Data%>%
+  filter(!is.na(x))%>% #filtering out N/A coordinates that can't be visualised
+  st_as_sf(coords = c('x','y'),crs=4326)%>% #converting the data into an sf (geographic) dataframe
+  tm_shape()+
+  tm_dots()
+
+```
+
+
+Ok check done, the data is located in the right place along the coast of Queensland Australia! Now let's create something nicer!
+
+\
+
+## Better Maps
+
+Here are three options you can use as a starting point:
+
+1. Aggregate the points by location.
+
+Currently, each row is represented by a set of coordinates. We have many different points but not so many different locations. Let's look at a our first location (alphabetically):
+
+```{r check-loc, results=TRUE,message=FALSE,warning=FALSE}
+
+Data%>%
+  arrange(Beach)%>%
+  select(c(SpeciesName,Beach,x,y))%>%
+  head(10)
+
+```
+As you can see, the x and y values are almost/completely identical between each row. This is because each row represents a catch based on the gear location.
+This means that if we aggregate the data by beach location, we will have one point per location. This can be done since the exact location of the beach is not super important in this analysis. So it's possible to just aggregate the coordinates using the average x and y for each beach location. The good thing is, we can also use this average to impute the NA coordinates that we detected previously.
+
+```{r create-location-data, results=FALSE,message=FALSE,warning=FALSE}
+
+#creating new dataframe with aggregated locations
+
+data_location<-Data%>%
+  group_by(Beach,Area)%>%
+  summarise(x=mean(x,na.rm=T),y=mean(y,na.rm=T))%>%
+  filter(!is.na(x))%>% #in case any NAs are left
+  st_as_sf(coords = c('x','y'),crs=4326) 
+
+```
+
+
+
+Now let's inspect the data using an tmap's interactive map 
+
+```{r set-tmap2, results=TRUE,message=FALSE,warning=FALSE}
+
+#set tmap to interactive map mode
+tmap_mode('view')
+
+#set the basemap
+tmap_options(basemaps = 'CartoDB.Positron')
+
+#create map
+tm_shape(data_location)+
+tm_dots()
+```
+
+
+Now let's merge some interesting data and create a nice map
+
+```{r agg-data, results=TRUE,message=FALSE,warning=FALSE}
+
+#create subset data to join
+location_stats<-Data%>%
+  group_by(Beach,Area,Targeted,Fate)%>%
+  summarise(n=n(),)%>%
+  pivot_wider(names_from=c(Targeted,Fate),values_from=n)%>%
+  replace(is.na(.),0)%>%
+  group_by(Beach,Area)%>%
+  mutate(total = rowSums(across(where(is.numeric))),
+         total_targeted=Targeted_Alive+Targeted_Dead,
+         total_non_targeted=Non_Targeted_Alive+Non_Targeted_Dead)
+  
+  
+#join to location dataframe
+
+data_location<-data_location%>%
+  left_join(location_stats,by=c('Beach','Area'))
+
+#remove extra dataframe
+rm(location_stats)
+```
+
+
+And visualising this on a map with some interesting statistics:
+
+
+```{r map1-data, results=TRUE,message=FALSE,warning=FALSE}
+
+
+tm_shape(data_location%>%
+  mutate(survival_rate_non_tar=round(Non_Targeted_Alive/total_non_targeted*100,2)))+
+  tm_dots(col='survival_rate_non_tar',
+          size='total_non_targeted',
+          border.col='black',
+          border.alpha = .5,
+          alpha=0.5,
+          palette="RdYlBu",
+          contrast=1, 
+          title = 'Survival Rate (%)',
+          popup.vars=c("Total Non Targeted Caught"="total_non_targeted", "Survival Rate"="survival_rate_non_tar"),
+          style="fixed", breaks=c(seq(10,100,by=10)))
+
+
+
+
+```
+
+
+option 2:
+
+```{r map2-data, results=TRUE,message=FALSE,warning=FALSE}
+
+
+
+tm_shape(data_location%>%
+  mutate(targeted_rate=round(total_targeted/total*100,2)))+
+  tm_dots(col='targeted_rate',
+          size='total',
+          border.col='black',
+          border.alpha = .5,
+          alpha=0.5,
+          palette="BuPu",
+          contrast=1, 
+          title = '% of Targeted Species',
+          popup.vars=c("Total Caught"="total", "Ratio of Targeted Species"="targeted_rate"),
+          style="fixed", breaks=c(seq(10,100,by=10)))
+
+
+
+
+```
+
+
+It is also possible to use the original version of the data (without aggregating by location) to create nice maps.
+
+For example, heatmaps!
+
+```{r map3-data-libs, results=TRUE,message=FALSE,warning=FALSE,eval=FALSE}
+
+install.packages('leaflet')
+install.packages('leaflet.extras')
+
+```
+
+
+```{r map3-data, results=TRUE,message=FALSE,warning=FALSE}
+
+library('leaflet')
+library('leaflet.extras')
+
+data_location%>%
+  mutate(x = unlist(map(geometry,1)),
+         y = unlist(map(geometry,2)))%>%
+  st_drop_geometry()%>%
+  leaflet()%>%
+  addTiles() %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  setView(153.44513560058888,-28.02118802627169,7)%>%
+  addHeatmap(lng=~x,lat=~y,max=500,intensity = ~total_targeted,radius=10,blur=5)
+
+
+
+```
+
+
+
+
+
+
