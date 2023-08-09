@@ -1,0 +1,798 @@
+,,,,,,,,,,Month,,,,,,,,,,,,
+SpeciesName,LengthRange,SpeciesGroup,Gender,LengthCategory,Fate,Beach,GearStatus,GearName,Area,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,Grand Total
+Australian Blacktip,1-2m,Shark,Female,< 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 35,Cairns,,,,,,,,,,,1,,1
+Blacktip Reef Whaler,0-1m,Shark,Female,< 2m,Dead,Clifton Beach,Active,Clifton Beach Drum 21,Cairns,,,1,,,,,,,,,,1
+Blacktip Reef Whaler,0-1m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 6,Cairns,,,,,1,,,,,,,,1
+Blacktip Reef Whaler,0-1m,Shark,Female,< 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 35,Cairns,,,,,,,,,,1,,,1
+Blacktip Reef Whaler,0-1m,Shark,Female,< 2m,Dead,Palm Cove,Active,Palm Cove Drum 14,Cairns,1,,,,,,,,,,,,1
+Blacktip Reef Whaler,0-1m,Shark,Female,< 2m,Dead Total,,,,,1,,1,,1,,,,,1,,,4
+Blacktip Reef Whaler,0-1m,Shark,Male,< 2m,Dead,Buchans Point Beach,Active,Buchans Point Beach Drum 8,Cairns,1,,,,,,,,,,,,1
+Blacktip Reef Whaler,0-1m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 10,Gladstone,,,,,,,,,,,,1,1
+Blacktip Reef Whaler,0-1m,Shark,Male,< 2m,Dead Total,,,,,1,,,,,,,,,,,1,2
+Blacktip Reef Whaler,0-1m,Shark Total,,,,,,,,2,,1,,1,,,,,1,,1,6
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 1,Cairns,,,,,,1,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 4,Cairns,1,,,,,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,Ellis Beach,Active Total,,,1,,,,,1,,,,,,,2
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 25,Townsville,,,,,,,,,1,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 37,Cairns,1,,,,,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 13,Townsville,,,,,1,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,The Strand,Active,The Strand Drum 49,Townsville,,,,,,,1,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead,Trinity Beach,Active,Trinity Beach Drum 27,Cairns,,,,1,,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Female,< 2m,Dead Total,,,,,2,,,1,1,1,1,,1,,,,7
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead,Alma Bay,Active,Alma Bay Drum 16,Townsville,,1,,,,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead,Farnborough Beach,Active,Farnborough Beach Drum 5,Capricorn Coast,,,,,1,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 39,Mackay,1,,,,,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,,1,,,1
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead,Harbour Beach,Active Total,,,1,,,,,,,,,1,,,2
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 27,Townsville,,,,,,,1,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead,Trinity Beach,Active,Trinity Beach Drum 23,Cairns,,,,1,,,,,,,,,1
+Blacktip Reef Whaler,1-2m,Shark,Male,< 2m,Dead Total,,,,,1,1,,1,1,,1,,,1,,,6
+Blacktip Reef Whaler,1-2m,Shark Total,,,,,,,,3,1,,2,2,1,2,,1,1,,,13
+Blacktip Reef Whaler,2-3m,Shark,Female,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Net 1,Mackay,1,,,,,,,,,,,,1
+Blacktip Reef Whaler Total,,,,,,,,,,6,1,1,2,3,1,2,,1,2,,1,20
+Bottlenose Dolphin,Non-shark,Mammal,Female,Non-shark,Dead,Maroochydore Beach,Active,Maroochydore Beach Net 5,Sunshine Coast North,,,,,,,,1,,,,,1
+Bottlenose Dolphin,Non-shark,Mammal,Male,Non-shark,Dead,Maroochydore Beach,Active,Maroochydore Beach Net 5,Sunshine Coast North,,,,,,,,1,,,,,1
+Bottlenose Dolphin,Non-shark,Mammal,Unknown,Non-shark,Alive,Sunshine Beach,Active,Sunshine Beach Drum 5,Sunshine Coast North,,,,,,,,,,1,,,1
+Bottlenose Dolphin,Non-shark,Mammal,Unknown,Non-shark,Dead,Caloundra,Active,Caloundra Net 11,Sunshine Coast South & Bribie Island,,,,,,1,,,,,,,1
+Bottlenose Dolphin,Non-shark,Mammal,Unknown,Non-shark Total,,,,,,,,,,,1,,,,1,,,2
+Bottlenose Dolphin,Non-shark,Mammal Total,,,,,,,,,,,,,1,,2,,1,,,4
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 49,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 51,Capricorn Coast,,,,,1,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 53,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Emu Park,Active Total,,,,2,,,1,,,,,,,,3
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Farnborough Beach,Active,Farnborough Beach Drum 4,Capricorn Coast,,,,,,1,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Fishermans Beach,Active,Fishermans Beach Drum 44,Capricorn Coast,,,,,1,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Fishermans Beach,Active,Fishermans Beach Drum 45,Capricorn Coast,,,,,,1,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Fishermans Beach,Active Total,,,,,,,1,1,,,,,,,2
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Kemp Beach,Active,Kemp Beach Drum 27,Capricorn Coast,,,1,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Kemp Beach,Active,Kemp Beach Drum 32,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Kemp Beach,Active Total,,,,1,1,,,,,,,,,,2
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Lammermoor Beach,Active,Lammermoor Beach Drum 20,Capricorn Coast,1,,,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Mulambin Beach,Active,Mulambin Beach Drum 37,Capricorn Coast,,,,,,,,,,,,1,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 39,Capricorn Coast,,,,,,,,,,,,1,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 40,Capricorn Coast,,,,,,1,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 42,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead,Tanby Point,Active Total,,,,1,,,,1,,,,,,1,3
+Bull Whaler,0-1m,Shark,Female,< 2m,Dead Total,,,,,1,4,1,,2,3,,,,,,2,13
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Emu Park,Active,Emu Park Drum 52,Capricorn Coast,,,1,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Fishermans Beach,Active,Fishermans Beach Drum 43,Capricorn Coast,,,,,1,,,,,,,,1
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Lammermoor Beach,Active,Lammermoor Beach Drum 26,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 38,Capricorn Coast,,,1,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 42,Capricorn Coast,,,,,,,,,,1,,,1
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Tanby Point,Active Total,,,,,1,,,,,,,1,,,2
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 2,Gladstone,,,,,,,,1,,,,,1
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Yeppoon,Active,Yeppoon Drum 6,Capricorn Coast,1,1,,,,,,,,,,,2
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Yeppoon,Active,Yeppoon Drum 9,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead,Yeppoon,Active Total,,,1,2,,,,,,,,,,,3
+Bull Whaler,0-1m,Shark,Male,< 2m,Dead Total,,,,,1,3,2,,1,,,1,,1,,,9
+Bull Whaler,0-1m,Shark Total,,,,,,,,2,7,3,,3,3,,1,,1,,2,22
+Bull Whaler,1-2m,Shark,Female,< 2m,Alive,Bribie Island,Active,Bribie Island Drum 74,Sunshine Coast South & Bribie Island,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Alive,Nobby Beach,Active,Nobby Beach Drum 17,Gold Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Alive,Tallebudgera Beach,Active,Tallebudgera Beach Net 7,Gold Coast,,,,,,1,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Alive Total,,,,,,2,,,,1,,,,,,,3
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Bilinga Beach,Active,Bilinga Beach Net 9,Gold Coast,,,,,,1,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Caloundra,Active,Caloundra Drum 60,Sunshine Coast South & Bribie Island,,,,,,1,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 50,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 52,Capricorn Coast,,,,,,,,,,,1,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 54,Capricorn Coast,1,,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Emu Park,Active Total,,,1,1,,,,,,,,,1,,3
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Farnborough Beach,Active,Farnborough Beach Drum 1,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Fishermans Beach,Active,Fishermans Beach Drum 43,Capricorn Coast,,,,1,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 38,Mackay,,,,,1,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Maroochydore Beach,Active,Maroochydore Beach Net 5,Sunshine Coast North,,,,,,1,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 6,Bundaberg,,,,,,,,,1,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 7,Bundaberg,,,,,,1,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 8,Bundaberg,,,,,,,,,,1,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active Total,,,,,,,,1,,,1,1,,,3
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Pallarenda Beach,Active,Pallarenda Beach Drum 45,Townsville,,,,,,,,,,,,1,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Surfers Paradise Beach,Active,Surfers Paradise Beach Net 2,Gold Coast,,,,,,,,1,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 40,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 11,Gladstone,,,,,1,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,,,,,,,1,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 4,Gladstone,,,,,,,1,,,,1,,2
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 6,Gladstone,,,,,,,,,,,1,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active Total,,,,,,,1,,1,1,,,2,,5
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,The Strand,Active,The Strand Drum 52,Townsville,,,,,,,,,,,1,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead,Yeppoon,Active,Yeppoon Drum 10,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Female,< 2m,Dead Total,,,,,1,4,,1,2,4,1,2,1,1,4,1,22
+Bull Whaler,1-2m,Shark,Female,< 2m Total,,,,,,1,6,,1,2,5,1,2,1,1,4,1,25
+Bull Whaler,1-2m,Shark,Male,< 2m,Alive,Maroochydore Beach,Active,Maroochydore Beach Net 5,Sunshine Coast North,,,,,,1,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Emu Park,Active,Emu Park Drum 48,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Emu Park,Active,Emu Park Drum 50,Capricorn Coast,1,,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Emu Park,Active Total,,,1,1,,,,,,,,,,,2
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Fishermans Beach,Active,Fishermans Beach Drum 47,Capricorn Coast,,,,,1,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 23,Townsville,,,,1,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 33,Townsville,,,,,,1,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Kemp Beach,Active,Kemp Beach Drum 28,Capricorn Coast,,,1,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Miami Beach,Active,Miami Beach Net 5,Gold Coast,,,,,,,1,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Mulambin Beach,Active,Mulambin Beach Drum 33,Capricorn Coast,,,1,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Mulambin Beach,Active,Mulambin Beach Drum 35,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Mulambin Beach,Active,Mulambin Beach Drum 37,Capricorn Coast,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Mulambin Beach,Active Total,,,,2,1,,,,,,,,,,3
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 5,Bundaberg,,,,,,,,1,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 8,Townsville,,,,,,,,1,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,,,,,2,,,,,,,2
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Rainbow Bay,Active,Rainbow Bay Drum 29,Gold Coast,,,,1,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Sunrise Beach,Active,Sunrise Beach Drum 8,Sunshine Coast North,,,,,1,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 38,Capricorn Coast,,,,,1,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 1,Gladstone,,,,,,,1,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 10,Gladstone,,,,,1,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active Total,,,,1,,,1,,1,,,,,,3
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead,The Strand,Active,The Strand Drum 47,Townsville,,,,1,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Male,< 2m,Dead Total,,,,,1,4,2,3,4,3,2,2,,,,,21
+Bull Whaler,1-2m,Shark,Male,< 2m Total,,,,,,1,4,2,3,4,4,2,2,,,,,22
+Bull Whaler,1-2m,Shark,Unknown,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 25,Townsville,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Unknown,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 8,Bundaberg,,,,,1,,,,,,,,1
+Bull Whaler,1-2m,Shark,Unknown,< 2m,Dead,Point Cartwright,Active,Point Cartwright Drum 40,Sunshine Coast South & Bribie Island,,1,,,,,,,,,,,1
+Bull Whaler,1-2m,Shark,Unknown,< 2m,Dead Total,,,,,,2,,,1,,,,,,,,3
+Bull Whaler,1-2m,Shark Total,,,,,,,,2,12,2,4,7,9,3,4,1,1,4,1,50
+Bull Whaler,2-3m,Shark,Female,>= 2m,Alive,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,,,,,,,,,,,1,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Alive,Rainbow Beach,Active,Rainbow Beach Net 1,Rainbow Beach,,,,,,,,1,,,,,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Alive,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,1,,,,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Alive,Rainbow Beach,Active Total,,,1,,,,,,,1,,,,,2
+Bull Whaler,2-3m,Shark,Female,>= 2m,Alive Total,,,,,1,,,,,,,1,,,,1,3
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead,Bucasia Beach,Not Active,Bucasia Beach Net 1,Mackay,1,,,,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 37,Cairns,,,1,,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 33,Townsville,,,,1,,,,,,1,,,2
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,,,,,,,,,,,1,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead,Ocean Beach,Active,Ocean Beach Drum 34,Nth Stradbroke Is.,,,,1,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead,Radical Bay,Active,Radical Bay Drum 27,Townsville,,,,,,,,1,,,,,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead,Sunrise Beach,Active,Sunrise Beach Drum 7,Sunshine Coast North,,,1,,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Female,>= 2m,Dead Total,,,,,1,,2,2,,,,1,,1,,1,8
+Bull Whaler,2-3m,Shark,Female,>= 2m Total,,,,,,2,,2,2,,,,2,,1,,2,11
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Eimeo Beach,Active,Eimeo Beach Drum 14,Mackay,1,,,,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 34,Townsville,,,,,,,,1,,,,,1
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Marcoola Beach,Active,Marcoola Beach Net 4,Sunshine Coast North,,,,1,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,,,,,,,,,1,,,1
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Tallebudgera Beach,Active,Tallebudgera Beach Net 7,Gold Coast,1,,,,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 12,Gladstone,,1,,,,,,,,,,,1
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 4,Gladstone,,,,,,,,,,1,,,1
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead,Tannum Sands,Active Total,,,,1,,,,,,,,1,,,2
+Bull Whaler,2-3m,Shark,Male,>= 2m,Dead Total,,,,,2,1,,1,,,,1,,2,,,7
+Bull Whaler,2-3m,Shark,Unknown,>= 2m,Dead,Alma Bay,Active,Alma Bay Drum 16,Townsville,,1,,,,,,,,,,,1
+Bull Whaler,2-3m,Shark Total,,,,,,,,4,2,2,3,,,,3,,3,,2,19
+Bull Whaler Total,,,,,,,,,,8,21,7,7,10,12,3,8,1,5,4,5,91
+Catfish,Non-shark,Other,Female,Non-shark,Dead,Cooee Bay,Active,Cooee Bay Drum 13,Capricorn Coast,,,,1,,,,,,,,,1
+Catfish,Non-shark,Other,Female,Non-shark,Dead,Lammermoor Beach,Active,Lammermoor Beach Drum 17,Capricorn Coast,,,,1,,,,,,,,,1
+Catfish,Non-shark,Other,Female,Non-shark,Dead Total,,,,,,,,2,,,,,,,,,2
+Catfish,Non-shark,Other,Unknown,Non-shark,Dead,Florence Bay,Active,Florence Bay Drum 22,Townsville,,,1,,,,,,,,,,1
+Catfish,Non-shark,Other,Unknown,Non-shark,Dead,Florence Bay,Active,Florence Bay Drum 25,Townsville,,,,,,,,,,1,,,1
+Catfish,Non-shark,Other,Unknown,Non-shark,Dead,Florence Bay,Active Total,,,,,1,,,,,,,1,,,2
+Catfish,Non-shark,Other,Unknown,Non-shark,Dead,The Strand,Active,The Strand Drum 53,Townsville,,,,,,,,1,,,,,1
+Catfish,Non-shark,Other,Unknown,Non-shark,Dead Total,,,,,,,1,,,,,1,,1,,,3
+Catfish,Non-shark,Other Total,,,,,,,,,,1,2,,,,1,,1,,,5
+Common Blacktip Wha,0-1m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 10,Gladstone,,,,,,,,1,1,,,,2
+Common Blacktip Wha,0-1m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 11,Gladstone,,,,,,,,,,1,,,1
+Common Blacktip Wha,0-1m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 12,Gladstone,,1,,,,,,1,,,,,2
+Common Blacktip Wha,0-1m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,,,1,,,,,,,,,1
+Common Blacktip Wha,0-1m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 6,Gladstone,,,,,,,,,,,1,,1
+Common Blacktip Wha,0-1m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 8,Gladstone,,,,,,,,1,,,,,1
+Common Blacktip Wha,0-1m,Shark,Female,< 2m,Dead,Tannum Sands,Active Total,,,,1,,1,,,,3,1,1,1,,8
+Common Blacktip Wha,0-1m,Shark,Male,< 2m,Dead,Palm Cove,Active,Palm Cove Drum 18,Cairns,,,,,,,,,,,,1,1
+Common Blacktip Wha,0-1m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 2,Gladstone,,,,,,,,,1,,,,1
+Common Blacktip Wha,0-1m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 4,Gladstone,,1,,1,,,,,,,,,2
+Common Blacktip Wha,0-1m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 7,Gladstone,,,,,,,,,,,,1,1
+Common Blacktip Wha,0-1m,Shark,Male,< 2m,Dead,Tannum Sands,Active Total,,,,1,,1,,,,,1,,,1,4
+Common Blacktip Wha,0-1m,Shark,Male,< 2m,Dead Total,,,,,,1,,1,,,,,1,,,2,5
+Common Blacktip Wha,0-1m,Shark Total,,,,,,,,,2,,2,,,,3,2,1,1,2,13
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Alma Bay,Active,Alma Bay Drum 17,Townsville,,,,,,1,,,,,1,,2
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 7,Rainbow Beach,,,1,,,,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 1,Gladstone,,,,,1,,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 10,Gladstone,,,,,,1,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 11,Gladstone,,1,,1,,,,,,,,,2
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 12,Gladstone,,,,,,,,,,,1,,1
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,,2,,,,,,,,,,2
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 7,Gladstone,,,,,,,,,,1,,,1
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 9,Gladstone,1,,,,,,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active Total,,,1,1,2,1,1,1,,,,1,1,,9
+Common Blacktip Wha,1-2m,Shark,Female,< 2m,Dead Total,,,,,1,1,3,1,1,2,,,,1,2,,12
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Clifton Beach,Active,Clifton Beach Drum 20,Cairns,,,,,,,,,,,1,,1
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Picnic Bay,Active,Picnic Bay Drum 3,Townsville,,,,,,,,,,1,,,1
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 12,Gladstone,,,,,,,,,,,1,,1
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 2,Gladstone,,,,,,,,,,1,1,,2
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,,1,,1,,,,,,,,2
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 5,Gladstone,,,,,,1,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 7,Gladstone,,1,,,,,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 8,Gladstone,,,,,,1,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 9,Gladstone,,,1,,,,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active Total,,,,1,2,,1,2,,,,1,2,,9
+Common Blacktip Wha,1-2m,Shark,Male,< 2m,Dead Total,,,,,,1,2,,1,2,,,,2,3,,11
+Common Blacktip Wha,1-2m,Shark,Unknown,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 24,Townsville,,,,,,1,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Unknown,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 11,Gladstone,,1,,,,,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Unknown,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,1,,,,,,,,,,,1
+Common Blacktip Wha,1-2m,Shark,Unknown,< 2m,Dead,Tannum Sands,Active Total,,,,2,,,,,,,,,,,2
+Common Blacktip Wha,1-2m,Shark,Unknown,< 2m,Dead Total,,,,,,2,,,,1,,,,,,,3
+Common Blacktip Wha,1-2m,Shark Total,,,,,,,,1,4,5,1,2,5,,,,3,5,,26
+Common Blacktip Wha Total,,,,,,,,,,1,6,5,3,2,5,,3,2,4,6,2,39
+Common Dolphin,Non-shark,Mammal,Female,Non-shark,Alive,Caloundra,Active,Caloundra Drum 55,Sunshine Coast South & Bribie Island,,,,,,,,,,,,1,1
+Common Dolphin,Non-shark,Mammal,Female,Non-shark,Alive,Currimundi,Active,Currimundi Drum 48,Sunshine Coast South & Bribie Island,,,,,1,,,,,,,,1
+Common Dolphin,Non-shark,Mammal,Female,Non-shark,Alive,Mermaid Beach,Active,Mermaid Beach Net 4,Gold Coast,,,,,,,,,,,,1,1
+Common Dolphin,Non-shark,Mammal,Female,Non-shark,Alive,Staghorn Ave,Active,Staghorn Ave Drum 8,Gold Coast,,,,,,,,,,,1,,1
+Common Dolphin,Non-shark,Mammal,Female,Non-shark,Alive Total,,,,,,,,,1,,,,,,1,2,4
+Common Dolphin,Non-shark,Mammal,Male,Non-shark,Dead,Miami Beach,Active,Miami Beach Net 5,Gold Coast,,,,1,,,,,,,,,1
+Common Dolphin,Non-shark,Mammal,Unknown,Non-shark,Alive,Castaways Beach,Active,Castaways Beach Drum 11,Sunshine Coast North,,,1,,,,,,,,,,1
+Common Dolphin,Non-shark,Mammal Total,,,,,,,,,,1,1,1,,,,,,1,2,6
+Cownose Ray,Non-shark,Other,Female,Non-shark,Dead,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,,,,,,,,,,1,,1
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Alive,Burleigh Beach,Active,Burleigh Beach Net 6,Gold Coast,,,,,,,,,,,1,,1
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Alive,Caloundra,Active,Caloundra Net 11,Sunshine Coast South & Bribie Island,,,,,,,,,,,,1,1
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Alive,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,1,,,,,,,,1,,1,3
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Alive,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,,,,,,,,1,,,,1
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Alive,Maroochydore Beach,Active,Maroochydore Beach Net 5,Sunshine Coast North,,,,,,,,,,,1,,1
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Alive,Mooloolaba Beach,Active,Mooloolaba Beach Net 9,Sunshine Coast South & Bribie Island,,,,,,,,,,,,1,1
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Alive Total,,,,,,1,,,,,,,1,1,2,3,8
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Dead,Burleigh Beach,Active,Burleigh Beach Net 6,Gold Coast,,,,,,,,,,,2,,2
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Dead,Miami Beach,Active,Miami Beach Net 5,Gold Coast,,,,,,,,,1,,1,,2
+Cownose Ray,Non-shark,Other,Unknown,Non-shark,Dead Total,,,,,,,,,,,,,1,,3,,4
+Cownose Ray,Non-shark,Other,Unknown,Non-shark Total,,,,,,,1,,,,,,,2,1,5,3,12
+Cownose Ray,Non-shark,Other Total,,,,,,,,,1,,,,,,,2,1,6,3,13
+Creek Whaler,0-1m,Shark,Female,< 2m,Dead,Clifton Beach,Active,Clifton Beach Drum 22,Cairns,,,,,,,,,1,,,,1
+Crocodile,Non-shark,Other,Female,Non-shark,Dead,Harbour Beach,Active,Harbour Beach Net 2,Mackay,,1,,,,,,,,,,,1
+Devilray *,Non-shark,Other,Female,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,,,,,,1,,,,,,1
+Devilray *,Non-shark,Other,Male,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,,,1,,,,,,,,,1
+Devilray *,Non-shark,Other,Unknown,Non-shark,Alive,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,,,,1,,,,,,,,1
+Devilray *,Non-shark,Other,Unknown,Non-shark,Alive,Miami Beach,Active,Miami Beach Net 5,Gold Coast,,1,,,,,,,,,,,1
+Devilray *,Non-shark,Other,Unknown,Non-shark,Alive Total,,,,,,1,,,1,,,,,,,,2
+Devilray *,Non-shark,Other,Unknown,Non-shark,Dead,Caloundra,Active,Caloundra Net 11,Sunshine Coast South & Bribie Island,,,,,,,,,,,,5,5
+Devilray *,Non-shark,Other,Unknown,Non-shark,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,,,,,,,,,,,2,2
+Devilray *,Non-shark,Other,Unknown,Non-shark,Dead Total,,,,,,,,,,,,,,,,7,7
+Devilray *,Non-shark,Other,Unknown,Non-shark Total,,,,,,,1,,,1,,,,,,,7,9
+Devilray *,Non-shark,Other Total,,,,,,,,,1,,1,1,,1,,,,,7,11
+Dusky Whaler,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,1,,,,,,,,,,,1
+Dusky Whaler,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 1,Rainbow Beach,,,,,,,,,,,,1,1
+Dusky Whaler,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,1,,,,,,,,,,,1
+Dusky Whaler,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active Total,,,,1,,,,,,,,,,1,2
+Dusky Whaler,2-3m,Shark Total,,,,,,,,,2,,,,,,,,,,1,3
+Dusky Whaler,3-4m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 5,Rainbow Beach,,,,,,,1,,,,,,1
+Dusky Whaler Total,,,,,,,,,,,2,,,,,1,,,,,1,4
+Eagle Ray *,Non-shark,Other,Unknown,Non-shark,Alive,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,,,,,,,,,,,1,1
+Eagle Ray *,Non-shark,Other,Unknown,Non-shark,Alive,Kurrawa Beach,Active,Kurrawa Beach Net 3,Gold Coast,1,,1,,,,,,,,,,2
+Eagle Ray *,Non-shark,Other,Unknown,Non-shark,Alive Total,,,,,1,,1,,,,,,,,,1,3
+Fantail Ray,Non-shark,Other,Female,Non-shark,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 35,Townsville,,,,,,,1,,,,,,1
+Giant Trevally,Non-shark,Other,Unknown,Non-shark,Dead,Trinity Beach,Active,Trinity Beach Drum 23,Cairns,,,,,,,,1,,,,,1
+Graceful Whaler,1-2m,Shark,Female,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 40,Townsville,,,,,1,,,,,,,,1
+Great Hammerhead,1-2m,Shark,Female,< 2m,Alive,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,,,,,,,,1,,,,1
+Great Hammerhead,1-2m,Shark,Female,< 2m,Dead,Alexandra Headland,Active,Alexandra Headland Net 8,Sunshine Coast South & Bribie Island,,,,,,,,,,,1,,1
+Great Hammerhead,1-2m,Shark,Female,< 2m,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,,,,,,,,,,,1,1
+Great Hammerhead,1-2m,Shark,Female,< 2m,Dead Total,,,,,,,,,,,,,,,1,1,2
+Great Hammerhead,1-2m,Shark,Female,< 2m Total,,,,,,,,,,,,,,1,,1,1,3
+Great Hammerhead,1-2m,Shark,Male,< 2m,Dead,Main Beach,Active,Main Beach Net 1,Gold Coast,,,,,,,,,,,1,,1
+Great Hammerhead,1-2m,Shark,Male,< 2m,Dead,Mooloolaba Beach,Active,Mooloolaba Beach Net 9,Sunshine Coast South & Bribie Island,,,,,,,,,,,,1,1
+Great Hammerhead,1-2m,Shark,Male,< 2m,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,,,,,,,,,,1,,1
+Great Hammerhead,1-2m,Shark,Male,< 2m,Dead,Noosa,Active,Noosa Net 2,Sunshine Coast North,,,,,,,1,,,,,,1
+Great Hammerhead,1-2m,Shark,Male,< 2m,Dead,Noosa,Active Total,,,,,,,,,1,,,,1,,2
+Great Hammerhead,1-2m,Shark,Male,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 26,Townsville,,,,,,,,,,,1,,1
+Great Hammerhead,1-2m,Shark,Male,< 2m,Dead Total,,,,,,,,,,,1,,,,3,1,5
+Great Hammerhead,1-2m,Shark Total,,,,,,,,,,,,,,1,,1,,4,2,8
+Great Hammerhead,2-3m,Shark,Female,>= 2m,Dead,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,,,1,,,,,,,,,1
+Great Hammerhead,2-3m,Shark,Female,>= 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 11,Townsville,,,,,,,,,1,,,,1
+Great Hammerhead,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,1,,,,,,,,,,,1
+Great Hammerhead,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,,,,,,,,,,1,,1
+Great Hammerhead,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active Total,,,,1,,,,,,,,,1,,2
+Great Hammerhead,2-3m,Shark,Female,>= 2m,Dead,The Strand,Active,The Strand Drum 48,Townsville,,,,,,,,,1,,,,1
+Great Hammerhead,2-3m,Shark,Female,>= 2m,Dead Total,,,,,,1,,1,,,,,2,,1,,5
+Great Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,1,,,,,,,,,,,1
+Great Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 8,Townsville,,,,,,,1,,,,,,1
+Great Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,,,1,,,,1,,,,,2
+Great Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Noosa,Active,Noosa Net 2,Sunshine Coast North,,,1,,,,,,,,,,1
+Great Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Noosa,Active Total,,,,,1,1,,,,1,,,,,3
+Great Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Pallarenda Beach,Active,Pallarenda Beach Drum 45,Townsville,,,,,,,1,,,,,,1
+Great Hammerhead,2-3m,Shark,Male,>= 2m,Dead Total,,,,,,1,1,1,,,2,1,,,,,6
+Great Hammerhead,2-3m,Shark,Unknown,>= 2m,Dead,Florence Bay,Active,Florence Bay Drum 23,Townsville,,,,,,,,1,,,,,1
+Great Hammerhead,2-3m,Shark Total,,,,,,,,,2,1,2,,,2,2,2,,1,,12
+Great Hammerhead,3-4m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 40,Townsville,,,,,,,,,,1,,,1
+Great Hammerhead,3-4m,Shark,Male,>= 2m,Dead,Kurrawa Beach,Active,Kurrawa Beach Net 3,Gold Coast,,,,,,,,,,,1,,1
+Great Hammerhead,3-4m,Shark Total,,,,,,,,,,,,,,,,,1,1,,2
+Great Hammerhead Total,,,,,,,,,,,2,1,2,,,3,2,3,1,6,2,22
+Green Turtle,Non-shark,Turtle,Female,Non-shark,Alive,Kirra Beach,Active,Kirra Beach Net 10,Gold Coast,,,,,,,,,,,1,,1
+Green Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,,,,,,,,,1,,,1
+Green Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,Oaks Beach,Active,Oaks Beach Drum 1,Bundaberg,,,,,,,,,,,1,,1
+Green Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,The Strand,Active,The Strand Drum 52,Townsville,,,,,,,,,1,,,,1
+Green Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive Total,,,,,,,,,,,,,1,,1,,2
+Green Turtle,Non-shark,Turtle Total,,,,,,,,,,,,,,,,1,1,2,,4
+Grey Nurse Shark,2-3m,Shark,Female,>= 2m,Alive,Noosa,Active,Noosa Net 2,Sunshine Coast North,1,,,,,,,,,,,,1
+Hardnose Whaler,0-1m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 4,Cairns,,,,,,,,,,,1,,1
+Hardnose Whaler,0-1m,Shark,Female,< 2m,Dead,Lammermoor Beach,Active,Lammermoor Beach Drum 21,Capricorn Coast,,,,,1,,,,,,,,1
+Hardnose Whaler,0-1m,Shark,Female,< 2m,Dead,Lammermoor Beach,Active,Lammermoor Beach Drum 22,Capricorn Coast,,,,,,,,,,,2,,2
+Hardnose Whaler,0-1m,Shark,Female,< 2m,Dead,Lammermoor Beach,Active Total,,,,,,,1,,,,,,2,,3
+Hardnose Whaler,0-1m,Shark,Female,< 2m,Dead,Palm Cove,Active,Palm Cove Drum 14,Cairns,,,,,,,,,,,1,,1
+Hardnose Whaler,0-1m,Shark,Female,< 2m,Dead Total,,,,,,,,,1,,,,,,4,,5
+Hardnose Whaler,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,,,,,,,,,1,,,1
+Hardnose Whaler Total,,,,,,,,,,,,,,1,,,,,1,4,,6
+Humpback Whale,Non-shark,Mammal,Female,Non-shark,Alive,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,,,,,,,,,2,,,2
+Humpback Whale,Non-shark,Mammal,Unknown,Non-shark,Alive,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,,,,,,,1,,,,,1
+Humpback Whale,Non-shark,Mammal,Unknown,Non-shark,Alive,Main Beach,Active,Main Beach Net 1,Gold Coast,,,,,,,1,,,,,,1
+Humpback Whale,Non-shark,Mammal,Unknown,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,,,,,,,,1,,,,1
+Humpback Whale,Non-shark,Mammal,Unknown,Non-shark,Alive,Surfers Paradise Beach,Active,Surfers Paradise Beach Net 2,Gold Coast,,,,,,,1,,,1,,,2
+Humpback Whale,Non-shark,Mammal,Unknown,Non-shark,Alive Total,,,,,,,,,,,2,1,1,1,,,5
+Humpback Whale,Non-shark,Mammal Total,,,,,,,,,,,,,,2,1,1,3,,,7
+Leatherback Turtle,Non-shark,Turtle,Female,Non-shark,Alive,Main Beach,Active,Main Beach Net 1,Gold Coast,,,,,,,,,,,1,,1
+Leatherback Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,,,,,,,,1,,,,1
+Leatherback Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,Ocean Beach,Active,Ocean Beach Drum 27,Nth Stradbroke Is.,,,,,,,,,,,,1,1
+Leatherback Turtle,Non-shark,Turtle Total,,,,,,,,,,,,,,,,1,,1,1,3
+Loggerhead Turtle,Non-shark,Turtle,Female,Non-shark,Alive,Buddina Beach,Active,Buddina Beach Drum 46,Sunshine Coast South & Bribie Island,,,,,,,,,,,1,,1
+Loggerhead Turtle,Non-shark,Turtle,Female,Non-shark,Alive,Burleigh Beach,Active,Burleigh Beach Net 6,Gold Coast,,,,,,,,,,,1,,1
+Loggerhead Turtle,Non-shark,Turtle,Female,Non-shark,Alive,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,,,,,,,,1,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Female,Non-shark,Alive,Rainbow Bay,Active,Rainbow Bay Drum 35,Gold Coast,,1,,,,,,,,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Female,Non-shark,Alive,Tallebudgera Beach,Active,Tallebudgera Beach Net 7,Gold Coast,1,,,,,,,,,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Female,Non-shark,Alive Total,,,,,1,1,,,,,,,1,,2,,5
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,,,,,,1,,,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Rainbow Bay,Active,Rainbow Bay Drum 34,Gold Coast,,,1,,,,,,,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Drum 1,Rainbow Beach,,,,,1,,,,,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Drum 5,Rainbow Beach,,,,,,,1,1,,,,,2
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Drum 7,Rainbow Beach,,,,,,,,,1,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Rainbow Beach,Active,Rainbow Beach Drum 8,Rainbow Beach,,1,,,,,,,,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Rainbow Beach,Active Total,,,,1,,,1,,1,1,1,,,,5
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive,Tugun Beach,Active,Tugun Beach Drum 23,Gold Coast,,,,,,,,,,,,1,1
+Loggerhead Turtle,Non-shark,Turtle,Male,Non-shark,Alive Total,,,,,,1,1,,1,,2,1,1,,,1,8
+Loggerhead Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,Buddina Beach,Active,Buddina Beach Drum 42,Sunshine Coast South & Bribie Island,,,,,,,1,,,,,1,2
+Loggerhead Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,Buddina Beach,Active,Buddina Beach Drum 45,Sunshine Coast South & Bribie Island,,1,,,,,,,,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,Buddina Beach,Active,Buddina Beach Drum 47,Sunshine Coast South & Bribie Island,,,,,,2,,,,,,,2
+Loggerhead Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,Buddina Beach,Active Total,,,,1,,,,2,1,,,,,1,5
+Loggerhead Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive,Ocean Beach,Active,Ocean Beach Drum 32,Nth Stradbroke Is.,,,,,,,,,1,,,,1
+Loggerhead Turtle,Non-shark,Turtle,Unknown,Non-shark,Alive Total,,,,,,1,,,,2,1,,1,,,1,6
+Loggerhead Turtle,Non-shark,Turtle Total,,,,,,,,1,3,1,,1,2,3,1,3,,2,2,19
+Long Nose Whaler,0-1m,Shark,Female,< 2m,Dead,Buchans Point Beach,Active,Buchans Point Beach Drum 9,Cairns,,,,,,1,,,,,,,1
+Long Nose Whaler,0-1m,Shark,Female,< 2m,Dead,Cooee Bay,Active,Cooee Bay Drum 13,Capricorn Coast,1,,,,,,,,,,,,1
+Long Nose Whaler,0-1m,Shark,Female,< 2m,Dead Total,,,,,1,,,,,1,,,,,,,2
+Long Nose Whaler,0-1m,Shark,Male,< 2m,Dead,Clifton Beach,Active,Clifton Beach Drum 20,Cairns,,,,,,,1,,,,,,1
+Long Nose Whaler,0-1m,Shark Total,,,,,,,,1,,,,,1,1,,,,,,3
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Burleigh Beach,Active,Burleigh Beach Net 6,Gold Coast,,,,,2,,,,,,,,2
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Caloundra,Active,Caloundra Net 11,Sunshine Coast South & Bribie Island,,,,,,,,,,,,1,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,,,,,,,,1,,,,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 42,Townsville,,,,,1,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Marcoola Beach,Active,Marcoola Beach Net 4,Sunshine Coast North,,,,,1,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Maroochydore Beach,Active,Maroochydore Beach Net 5,Sunshine Coast North,,,1,,,,1,,,,,,2
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 6,Townsville,,,,,,,,1,,,,,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Noosa,Active,Noosa Drum 2,Sunshine Coast North,,1,,,,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,,1,1,,,,,,,,,2
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Noosa,Active,Noosa Net 2,Sunshine Coast North,,,,1,,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Noosa,Active Total,,,,1,1,2,,,,,,,,,4
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 12,Rainbow Beach,1,,,,,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Female,< 2m,Dead Total,,,,,1,1,2,2,4,,1,1,1,,,1,14
+Long Nose Whaler,1-2m,Shark,Male,< 2m,Dead,Alexandra Headland,Active,Alexandra Headland Net 7,Sunshine Coast South & Bribie Island,1,,,,,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Male,< 2m,Dead,Alexandra Headland,Active,Alexandra Headland Net 8,Sunshine Coast South & Bribie Island,1,,,,,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Male,< 2m,Dead,Alexandra Headland,Active Total,,,2,,,,,,,,,,,,2
+Long Nose Whaler,1-2m,Shark,Male,< 2m,Dead,Marcoola Beach,Active,Marcoola Beach Net 4,Sunshine Coast North,,,,1,,,,,,,,,1
+Long Nose Whaler,1-2m,Shark,Male,< 2m,Dead,Noosa,Active,Noosa Net 2,Sunshine Coast North,,,,,,,,,,,,1,1
+Long Nose Whaler,1-2m,Shark,Male,< 2m,Dead Total,,,,,2,,,1,,,,,,,,1,4
+Long Nose Whaler,1-2m,Shark Total,,,,,,,,3,1,2,3,4,,1,1,1,,,2,18
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Alexandra Headland,Active,Alexandra Headland Net 7,Sunshine Coast South & Bribie Island,,1,,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Bilinga Beach,Active,Bilinga Beach Net 9,Gold Coast,,3,,,,,,,,,,,3
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Burleigh Beach,Active,Burleigh Beach Net 6,Gold Coast,,1,,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,2,,,,,,,,,,,2
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,1,,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Marcoola Beach,Active,Marcoola Beach Net 4,Sunshine Coast North,,,2,,,,,,,,,,2
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Mooloolaba Beach,Active,Mooloolaba Beach Net 9,Sunshine Coast South & Bribie Island,1,,,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Noosa,Active,Noosa Net 1,Sunshine Coast North,,1,,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,,1,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,1,,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active Total,,,,1,1,,,,,,,,,,2
+Long Nose Whaler,2-3m,Shark,Female,>= 2m,Dead Total,,,,,1,10,3,,,,,,,,,,14
+Long Nose Whaler,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,1,,,,,,,,,,,,1
+Long Nose Whaler,2-3m,Shark Total,,,,,,,,2,10,3,,,,,,,,,,15
+Long Nose Whaler Total,,,,,,,,,,6,11,5,3,4,1,2,1,1,,,2,36
+Mako,1-2m,Shark,Female,< 2m,Dead,Burleigh Beach,Active,Burleigh Beach Net 6,Gold Coast,,,,,,,1,,,,,,1
+Mako,2-3m,Shark,Female,>= 2m,Dead,Miami Beach,Active,Miami Beach Net 5,Gold Coast,,,,,,,,1,,,,,1
+Mako,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 1,Rainbow Beach,,,,,,,,,1,,,,1
+Mako,2-3m,Shark,Female,>= 2m,Dead Total,,,,,,,,,,,,1,1,,,,2
+Mako,3-4m,Shark,Female,>= 2m,Dead,Ocean Beach,Active,Ocean Beach Drum 29,Nth Stradbroke Is.,,,,,,,,1,,,,,1
+Mako,3-4m,Shark,Female,>= 2m,Dead,Sunshine Beach,Active,Sunshine Beach Drum 4,Sunshine Coast North,,,,,,,,,,1,,,1
+Mako,3-4m,Shark,Female,>= 2m,Dead Total,,,,,,,,,,,,1,,1,,,2
+Mako Total,,,,,,,,,,,,,,,,1,2,1,1,,,5
+Manta Ray,Non-shark,Other,Unknown,Non-shark,Alive,Kirra Beach,Active,Kirra Beach Net 10,Gold Coast,,,,,,,,,,,,1,1
+Manta Ray,Non-shark,Other,Unknown,Non-shark,Alive,Kurrawa Beach,Active,Kurrawa Beach Net 3,Gold Coast,,,,,,,,,,,1,,1
+Manta Ray,Non-shark,Other,Unknown,Non-shark,Alive,Noosa,Active,Noosa Net 2,Sunshine Coast North,,,,,,,,,,,,1,1
+Manta Ray,Non-shark,Other,Unknown,Non-shark,Alive Total,,,,,,,,,,,,,,,1,2,3
+Manta Ray,Non-shark,Other,Unknown,Non-shark,Dead,Coolum Beach,Active,Coolum Beach Net 3,Sunshine Coast North,,,,,,,,,,,1,,1
+Manta Ray,Non-shark,Other,Unknown,Non-shark Total,,,,,,,,,,,,,,,,2,2,4
+Marlin,Non-shark,Other,Unknown,Non-shark,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,,,,,,,,,1,,,1
+Marlin,Non-shark,Other,Unknown,Non-shark,Dead,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,,,,,,,,,1,,,1
+Marlin,Non-shark,Other,Unknown,Non-shark,Dead,Rainbow Beach,Active Total,,,,,,,,,,,,2,,,2
+Milk Shark,0-1m,Shark,Female,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 29,Townsville,,,,,,,,,,,1,,1
+Milk Shark,0-1m,Shark,Female,< 2m,Dead,Trinity Beach,Active,Trinity Beach Drum 23,Cairns,,,,,,,,,1,,,,1
+Milk Shark,0-1m,Shark,Female,< 2m,Dead Total,,,,,,,,,,,,,1,,1,,2
+Milk Shark,0-1m,Shark,Unknown,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 30,Townsville,1,,,,,,,,,,,,1
+Milk Shark,0-1m,Shark Total,,,,,,,,1,,,,,,,,1,,1,,3
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Alive,Holloways Beach,Active,Holloways Beach Drum 38,Cairns,,,1,,,,,,,,,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Bargara,Active,Bargara Drum 9,Bundaberg,,1,,,,,,,,,,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 3,Cairns,,,,,,,,,,,1,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 33,Townsville,1,,,,,,,,,,,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 12,Bundaberg,,1,,,,,,,,,,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 14,Bundaberg,,,,,,,,,1,1,,,2
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 19,Bundaberg,,,1,,,,,,,,,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active Total,,,,1,1,,,,,,1,1,,,4
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 3,Bundaberg,,,,,,,,,,,,1,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 5,Bundaberg,,,,,,,,,1,,,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active Total,,,,,,,,,,,1,,,1,2
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 28,Townsville,,,,,,,,,,,1,,1
+Pigeye Whaler,1-2m,Shark,Female,< 2m,Dead Total,,,,,1,2,1,,,,,,2,1,2,1,10
+Pigeye Whaler,1-2m,Shark,Female,< 2m Total,,,,,,1,2,2,,,,,,2,1,2,1,11
+Pigeye Whaler,1-2m,Shark,Male,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 27,Townsville,,,,1,,,,,,,,,1
+Pigeye Whaler,1-2m,Shark Total,,,,,,,,1,2,2,1,,,,,2,1,2,1,12
+Pigeye Whaler,2-3m,Shark,Female,>= 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 1,Cairns,,,,1,,,,,,,,,1
+Pigeye Whaler,2-3m,Shark,Male,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 31,Townsville,,,,,,1,,,,,,,1
+Pigeye Whaler,2-3m,Shark Total,,,,,,,,,,,1,,1,,,,,,,2
+Pigeye Whaler Total,,,,,,,,,,1,2,2,2,,1,,,2,1,2,1,14
+Reticulate Whipray,Non-shark,Other,Female,Non-shark,Dead,Farnborough Beach,Active,Farnborough Beach Drum 3,Capricorn Coast,,,,,1,,,,,,,,1
+Sandbar Whaler,1-2m,Shark,Female,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 5,Bundaberg,,,,,,,,,1,,,,1
+Sandbar Whaler,1-2m,Shark,Female,< 2m,Dead,Noosa,Active,Noosa Net 2,Sunshine Coast North,,,1,,,,,,,,,,1
+Sandbar Whaler,1-2m,Shark,Female,< 2m,Dead,Tallebudgera Beach,Active,Tallebudgera Beach Net 7,Gold Coast,,,,,,1,,,,,,,1
+Sandbar Whaler,1-2m,Shark,Female,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 5,Gladstone,,,1,,,,,,,,,,1
+Sandbar Whaler,1-2m,Shark,Female,< 2m,Dead Total,,,,,,,2,,,1,,,1,,,,4
+Sandbar Whaler,2-3m,Shark,Female,>= 2m,Dead,Neilson Park,Active,Neilson Park Drum 4,Bundaberg,,,,,,,,,1,,,,1
+Sandbar Whaler Total,,,,,,,,,,,,2,,,1,,,2,,,,5
+Scalloped Hammerhead,0-1m,Shark,Male,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 33,Townsville,,,,,,,,1,,,,,1
+Scalloped Hammerhead,1-2m,Shark,Female,< 2m,Dead,Bilinga Beach,Active,Bilinga Beach Net 9,Gold Coast,,,,,,,,,,,2,,2
+Scalloped Hammerhead,1-2m,Shark,Female,< 2m,Dead,Coolangatta Beach,Active,Coolangatta Beach Net 11,Gold Coast,,,,,,,,,1,,,,1
+Scalloped Hammerhead,1-2m,Shark,Female,< 2m,Dead,Kirra Beach,Active,Kirra Beach Net 10,Gold Coast,,,,,,,,,1,,,,1
+Scalloped Hammerhead,1-2m,Shark,Female,< 2m,Dead,Miami Beach,Active,Miami Beach Net 5,Gold Coast,,,,,,,,,,1,,,1
+Scalloped Hammerhead,1-2m,Shark,Female,< 2m,Dead,Ocean Beach,Active,Ocean Beach Drum 35,Nth Stradbroke Is.,,,,,,,1,,,,,,1
+Scalloped Hammerhead,1-2m,Shark,Female,< 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 1,Rainbow Beach,,,,,,,,,,,1,,1
+Scalloped Hammerhead,1-2m,Shark,Female,< 2m,Dead Total,,,,,,,,,,,1,,2,1,3,,7
+Scalloped Hammerhead,1-2m,Shark,Male,< 2m,Alive,Mermaid Beach,Active,Mermaid Beach Net 4,Gold Coast,,,,,,,,,,1,,,1
+Scalloped Hammerhead,1-2m,Shark,Male,< 2m,Dead,Clifton Beach,Active,Clifton Beach Drum 22,Cairns,,,,,,,,,1,,,,1
+Scalloped Hammerhead,1-2m,Shark,Male,< 2m,Dead,Currumbin Beach,Active,Currumbin Beach Net 8,Gold Coast,,,,,,,,,,,1,,1
+Scalloped Hammerhead,1-2m,Shark,Male,< 2m,Dead,Fishermans Beach,Active,Fishermans Beach Drum 47,Capricorn Coast,,,,,1,,,,,,,,1
+Scalloped Hammerhead,1-2m,Shark,Male,< 2m,Dead Total,,,,,,,,,1,,,,1,,1,,3
+Scalloped Hammerhead,1-2m,Shark,Male,< 2m Total,,,,,,,,,,1,,,,1,1,1,,4
+Scalloped Hammerhead,1-2m,Shark Total,,,,,,,,,,,,1,,1,,3,2,4,,11
+Scalloped Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Mermaid Beach,Active,Mermaid Beach Net 4,Gold Coast,1,,,,,,,,,,,,1
+Scalloped Hammerhead,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,1,,,,,,,,,,,,1
+Scalloped Hammerhead,2-3m,Shark,Male,>= 2m,Dead Total,,,,,2,,,,,,,,,,,,2
+Scalloped Hammerhead,2-3m,Shark,Unknown,>= 2m,Dead,Bucasia Beach,Not Active,Bucasia Beach Net 2,Mackay,,,,,,1,,,,,,,1
+Scalloped Hammerhead,2-3m,Shark Total,,,,,,,,2,,,,,1,,,,,,,3
+Scalloped Hammerhead,3-4m,Shark,Female,>= 2m,Dead,Bucasia Beach,Not Active,Bucasia Beach Net 2,Mackay,,,,1,,,,,,,,,1
+Scalloped Hammerhead Total,,,,,,,,,,2,,,1,1,1,1,1,3,2,4,,16
+Sharptooth Shark,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 20,Bundaberg,,,,1,,,,,,,,,1
+Sharptooth Shark,1-2m,Shark,Male,< 2m,Dead,Bargara,Active,Bargara Drum 10,Bundaberg,,,,,,,,,,,,1,1
+Sharptooth Shark,1-2m,Shark Total,,,,,,,,,,,1,,,,,,,,1,2
+Sharptooth Shark,2-3m,Shark,Female,>= 2m,Alive,Nelly Bay,Active,Nelly Bay Drum 13,Townsville,,,,,,,,,,,1,,1
+Sharptooth Shark,2-3m,Shark,Female,>= 2m,Dead,Alexandra Headland,Active,Alexandra Headland Net 7,Sunshine Coast South & Bribie Island,1,,,,,,,,,,,,1
+Sharptooth Shark,2-3m,Shark,Female,>= 2m Total,,,,,,1,,,,,,,,,,1,,2
+Sharptooth Shark,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,,,1,,,,,,,,,1
+Sharptooth Shark,2-3m,Shark Total,,,,,,,,1,,,1,,,,,,,1,,3
+Sharptooth Shark Total,,,,,,,,,,1,,,2,,,,,,,1,1,5
+Shovelnosed Ray *,Non-shark,Other,Female,Non-shark,Alive,Bilinga Beach,Active,Bilinga Beach Net 9,Gold Coast,,,,,,,,,,,,1,1
+Shovelnosed Ray *,Non-shark,Other,Female,Non-shark,Alive,Yorkeys Knob,Active,Yorkeys Knob Drum 31,Cairns,1,,,,,,,,,,,,1
+Shovelnosed Ray *,Non-shark,Other,Female,Non-shark,Alive Total,,,,,1,,,,,,,,,,,1,2
+Shovelnosed Ray *,Non-shark,Other,Male,Non-shark,Dead,Kemp Beach,Active,Kemp Beach Drum 29,Capricorn Coast,,,,,,,,,1,,,,1
+Shovelnosed Ray *,Non-shark,Other,Unknown,Non-shark,Alive,Eimeo Beach,Active,Eimeo Beach Drum 16,Mackay,,,,,,,,1,,,,,1
+Shovelnosed Ray *,Non-shark,Other,Unknown,Non-shark,Alive,Tallebudgera Beach,Active,Tallebudgera Beach Net 7,Gold Coast,,,,,,,,,,,1,,1
+Shovelnosed Ray *,Non-shark,Other,Unknown,Non-shark,Alive Total,,,,,,,,,,,,1,,,1,,2
+Shovelnosed Ray *,Non-shark,Other,Unknown,Non-shark,Dead,Kirra Beach,Active,Kirra Beach Net 10,Gold Coast,,,,,,,,,,,,1,1
+Shovelnosed Ray *,Non-shark,Other,Unknown,Non-shark,Dead,Surfers Paradise Beach,Active,Surfers Paradise Beach Net 2,Gold Coast,1,,,,,,,,,,,,1
+Shovelnosed Ray *,Non-shark,Other,Unknown,Non-shark,Dead Total,,,,,1,,,,,,,,,,,1,2
+Shovelnosed Ray *,Non-shark,Other,Unknown,Non-shark Total,,,,,,1,,,,,,,1,,,1,1,4
+Shovelnosed Ray *,Non-shark,Other Total,,,,,,,,2,,,,,,,1,1,,1,2,7
+Slit Eye Shark,0-1m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 1,Cairns,,,,,,,,1,,,,,1
+Spot-Tail Whaler,0-1m,Shark,Female,< 2m,Dead,Alma Bay,Active,Alma Bay Drum 16,Townsville,,,,,,,,,1,,,,1
+Spot-Tail Whaler,0-1m,Shark,Female,< 2m,Dead,Pallarenda Beach,Active,Pallarenda Beach Drum 45,Townsville,,,,,,1,,,,,,,1
+Spot-Tail Whaler,0-1m,Shark,Female,< 2m,Dead,Trinity Beach,Active,Trinity Beach Drum 28,Cairns,,,,,,,,,,,1,,1
+Spot-Tail Whaler,0-1m,Shark,Female,< 2m,Dead Total,,,,,,,,,,1,,,1,,1,,3
+Spot-Tail Whaler,0-1m,Shark,Male,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 28,Townsville,1,,,,,,,,,,,,1
+Spot-Tail Whaler,0-1m,Shark Total,,,,,,,,1,,,,,1,,,1,,1,,4
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Alma Bay,Active,Alma Bay Drum 15,Townsville,,,,,1,,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 49,Capricorn Coast,,,,,,,,,1,,,,1
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Emu Park,Active,Emu Park Drum 54,Capricorn Coast,,,,,,,,,,1,,,1
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Emu Park,Active Total,,,,,,,,,,,1,1,,,2
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 24,Townsville,,,,,,,,,,,,1,1
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Pallarenda Beach,Active,Pallarenda Beach Drum 45,Townsville,,,,,1,,,1,,,,,2
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Picnic Bay,Active,Picnic Bay Drum 5,Townsville,,,,,,1,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Radical Bay,Active,Radical Bay Drum 30,Townsville,1,,,,,,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead,Tanby Point,Active,Tanby Point Drum 39,Capricorn Coast,,,,,,,,,1,,,,1
+Spot-Tail Whaler,1-2m,Shark,Female,< 2m,Dead Total,,,,,1,,,,2,1,,1,2,1,,1,9
+Spot-Tail Whaler,1-2m,Shark,Male,< 2m,Dead,Alma Bay,Active,Alma Bay Drum 15,Townsville,,,,,,,,,,1,,,1
+Spot-Tail Whaler,1-2m,Shark,Male,< 2m,Dead,Alma Bay,Active,Alma Bay Drum 19,Townsville,,,,,,1,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Male,< 2m,Dead,Alma Bay,Active Total,,,,,,,,1,,,,1,,,2
+Spot-Tail Whaler,1-2m,Shark,Male,< 2m,Dead,Emu Park,Active,Emu Park Drum 48,Capricorn Coast,,,,,,,,,1,,,,1
+Spot-Tail Whaler,1-2m,Shark,Male,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 39,Townsville,,1,,,,,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Male,< 2m,Dead,The Strand,Active,The Strand Drum 47,Townsville,2,,,,,,,,,,,,2
+Spot-Tail Whaler,1-2m,Shark,Male,< 2m,Dead Total,,,,,2,1,,,,1,,,1,1,,,6
+Spot-Tail Whaler,1-2m,Shark,Unknown,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 22,Townsville,,,,1,,,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Unknown,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 31,Townsville,1,,,,,,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Unknown,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 7,Bundaberg,,1,,,,,,,,,,,1
+Spot-Tail Whaler,1-2m,Shark,Unknown,< 2m,Dead Total,,,,,1,1,,1,,,,,,,,,3
+Spot-Tail Whaler,1-2m,Shark Total,,,,,,,,4,2,,1,2,2,,1,3,2,,1,18
+Spot-Tail Whaler Total,,,,,,,,,,5,2,,1,2,3,,1,4,2,1,1,22
+Tawny Shark,1-2m,Shark,Female,< 2m,Alive,Nelly Bay,Active,Nelly Bay Drum 6,Townsville,,,,1,,,,,,,,,1
+Tawny Shark,1-2m,Shark,Female,< 2m,Alive,Picnic Bay,Active,Picnic Bay Drum 5,Townsville,,,,,,,,,,,,1,1
+Tawny Shark,1-2m,Shark,Female,< 2m,Alive Total,,,,,,,,1,,,,,,,,1,2
+Tawny Shark,1-2m,Shark,Male,< 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 41,Townsville,,,,1,,,,,,,,,1
+Tawny Shark,1-2m,Shark Total,,,,,,,,,,,2,,,,,,,,1,3
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Florence Bay,Active,Florence Bay Drum 22,Townsville,,,,,,,1,,,,,,1
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 38,Mackay,,,,,,,1,,,,,,1
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 42,Mackay,,,1,,,,,,,,,,1
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,1,,1,,2
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active Total,,,,,1,,,,1,,1,,1,,4
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 35,Townsville,,,,,,,,,1,,,,1
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Lamberts Beach,Active,Lamberts Beach Drum 27,Mackay,,,1,,,,,,,,,,1
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Palm Cove,Active,Palm Cove Drum 12,Cairns,,,,2,,,,,,,,,2
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Picnic Bay,Active,Picnic Bay Drum 5,Townsville,,,,,1,,,,,,,,1
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive,Trinity Beach,Active,Trinity Beach Drum 28,Cairns,,,,,,,,,,,1,,1
+Tawny Shark,2-3m,Shark,Female,>= 2m,Alive Total,,,,,,,2,2,1,,2,,2,,2,,11
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Fishermans Beach,Active,Fishermans Beach Drum 47,Capricorn Coast,,,,,,,,,,1,,,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,,,1,,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 38,Townsville,,1,,,,,,,,,,,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 41,Townsville,,,1,,,,,,,,,,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Horseshoe Bay,Active Total,,,,1,1,,,,,,,,,,2
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Neilson Park,Active,Neilson Park Drum 5,Bundaberg,,,,,,,,,,,,1,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Nelly Bay,Active,Nelly Bay Drum 11,Townsville,,,,,,,,,,,,1,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,Picnic Bay,Active,Picnic Bay Drum 5,Townsville,,,,,,,,,,,1,,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive,The Strand,Active,The Strand Drum 46,Townsville,,1,,,,,,,,,,,1
+Tawny Shark,2-3m,Shark,Male,>= 2m,Alive Total,,,,,,2,1,,,,,,,1,2,2,8
+Tawny Shark,2-3m,Shark Total,,,,,,,,,2,3,2,1,,2,,2,1,4,2,19
+Tawny Shark,3-4m,Shark,Male,>= 2m,Alive,Lamberts Beach,Active,Lamberts Beach Drum 25,Mackay,,,,,,,,,,,,1,1
+Tawny Shark Total,,,,,,,,,,,2,3,4,1,,2,,2,1,4,4,23
+Tiger Shark,0-1m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 1,Cairns,,,,,,,,,,,,1,1
+Tiger Shark,0-1m,Shark,Female,< 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 35,Cairns,,,,1,,,,,,,,,1
+Tiger Shark,0-1m,Shark,Female,< 2m,Dead,Peregian Beach,Active,Peregian Beach Drum 18,Sunshine Coast North,,,1,,,,,,,,,,1
+Tiger Shark,0-1m,Shark,Female,< 2m,Dead Total,,,,,,,1,1,,,,,,,,1,3
+Tiger Shark,0-1m,Shark,Male,< 2m,Alive,Florence Bay,Active,Florence Bay Drum 25,Townsville,,,,,,1,,,,,,,1
+Tiger Shark,0-1m,Shark Total,,,,,,,,,,1,1,,1,,,,,,1,4
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Alma Bay,Active,Alma Bay Drum 15,Townsville,,,,,,1,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Blacks Beach,Active,Blacks Beach Drum 22,Mackay,,,,,1,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Buchans Point Beach,Active,Buchans Point Beach Drum 8,Cairns,,,,,1,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 12,Bundaberg,,,,,,,,,,,,1,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 13,Bundaberg,,,,,,,1,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 16,Bundaberg,,,,,,1,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Kellys Beach,Active Total,,,,,,,,1,1,,,,,1,3
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Neilson Park,Active,Neilson Park Drum 4,Bundaberg,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Neilson Park,Active,Neilson Park Drum 6,Bundaberg,,,,1,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Neilson Park,Active Total,,,1,,,1,,,,,,,,,2
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,,,,1,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Alive Total,,,,,1,,,1,3,2,1,,,,,1,9
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Alma Bay,Active,Alma Bay Drum 18,Townsville,,,,,,,,,,,,1,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Buddina Beach,Active,Buddina Beach Drum 44,Sunshine Coast South & Bribie Island,,,,,1,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Clifton Beach,Active,Clifton Beach Drum 21,Cairns,,,1,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Cylinder Beach,Active,Cylinder Beach Drum 20,Nth Stradbroke Is.,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 3,Cairns,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 24,Townsville,,,,,,,,,1,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 37,Mackay,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 33,Townsville,,,1,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 14,Bundaberg,,,,,,,1,1,,,,,2
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 18,Bundaberg,,,,,,,,,1,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Kellys Beach,Active Total,,,,,,,,,1,1,1,,,,3
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Lamberts Beach,Active,Lamberts Beach Drum 25,Mackay,,,,,,,1,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Lamberts Beach,Active,Lamberts Beach Drum 28,Mackay,,,,1,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Lamberts Beach,Active Total,,,,,,1,,,1,,,,,,2
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Pallarenda Beach,Active,Pallarenda Beach Drum 44,Townsville,,,1,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Rainbow Bay,Active,Rainbow Bay Drum 32,Gold Coast,,,,,,1,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 1,Rainbow Beach,,,1,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Sunshine Beach,Active,Sunshine Beach Drum 4,Sunshine Coast North,,,,,1,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead,Trinity Beach,Active,Trinity Beach Drum 28,Cairns,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Female,< 2m,Dead Total,,,,,4,,4,1,2,1,2,1,2,,,1,18
+Tiger Shark,1-2m,Shark,Female,< 2m Total,,,,,,5,,4,2,5,3,3,1,2,,,2,27
+Tiger Shark,1-2m,Shark,Male,< 2m,Alive,Alma Bay,Active,Alma Bay Drum 20,Townsville,,,,,1,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 16,Bundaberg,,,,,,,,1,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Alive,Radical Bay,Active,Radical Bay Drum 27,Townsville,,,,,,,,,,,1,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Alive,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,1,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Alive Total,,,,,,1,,,1,,,1,,,1,,4
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Blacks Beach,Active,Blacks Beach Drum 21,Mackay,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 1,Cairns,,,,,,,,2,,,,,2
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Florence Bay,Active,Florence Bay Drum 24,Townsville,,1,,,,,,1,,,,,2
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 44,Mackay,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,,,1,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Harbour Beach,Active Total,,,1,,,,,,,,,,1,,2
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 37,Cairns,,,,1,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 33,Townsville,,1,,,,,,,,,,1,2
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 34,Townsville,1,,,,1,,,,,,,,2
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Horseshoe Bay,Active Total,,,1,1,,,1,,,,,,,1,4
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 16,Bundaberg,,,,,,,,,1,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Neilson Park,Active,Neilson Park Drum 6,Bundaberg,,,,,1,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 10,Townsville,,,,,,,1,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 3,Rainbow Beach,,,1,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 3,Gladstone,,,,,,1,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead,Yeppoon,Active,Yeppoon Drum 7,Capricorn Coast,1,,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Male,< 2m,Dead Total,,,,,4,2,1,1,2,1,1,3,1,,1,1,18
+Tiger Shark,1-2m,Shark,Male,< 2m Total,,,,,,4,3,1,1,3,1,1,4,1,,2,1,22
+Tiger Shark,1-2m,Shark,Unknown,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 31,Townsville,,,,1,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Unknown,< 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 32,Townsville,,,1,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Unknown,< 2m,Dead,Horseshoe Bay,Active Total,,,,,1,1,,,,,,,,,2
+Tiger Shark,1-2m,Shark,Unknown,< 2m,Dead,Pallarenda Beach,Active,Pallarenda Beach Drum 45,Townsville,,1,,,,,,,,,,,1
+Tiger Shark,1-2m,Shark,Unknown,< 2m,Dead Total,,,,,,1,1,1,,,,,,,,,3
+Tiger Shark,1-2m,Shark Total,,,,,,,,9,4,6,4,8,4,4,5,3,,2,3,52
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Eimeo Beach,Active,Eimeo Beach Drum 18,Mackay,,,,,,,1,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Emu Park,Active,Emu Park Drum 49,Capricorn Coast,,,,,,,1,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Emu Park,Active,Emu Park Drum 52,Capricorn Coast,,1,,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Emu Park,Active Total,,,,1,,,,,1,,,,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 37,Mackay,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 44,Mackay,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,,,2,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Net 2,Mackay,,,,,,,,,,,1,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Harbour Beach,Active Total,,,,,,,1,,,,1,,3,,5
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 39,Townsville,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 42,Townsville,,,,,,,,,,,1,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Horseshoe Bay,Active Total,,,,,,,,,,1,,,1,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 19,Bundaberg,,,,,,,1,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Neilson Park,Active,Neilson Park Drum 6,Bundaberg,,,,1,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Noosa,Active,Noosa Drum 2,Sunshine Coast North,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Noosa,Active,Noosa Drum 3,Sunshine Coast North,,,,,,,,,,1,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Noosa,Active Total,,,,,,,,,,,1,1,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Radical Bay,Active,Radical Bay Drum 30,Townsville,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive,Sunshine Beach,Active,Sunshine Beach Drum 5,Sunshine Coast North,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Alive Total,,,,,,1,,1,2,,3,1,3,1,4,,16
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Bargara,Active,Bargara Drum 10,Bundaberg,,,,,,,,,,,1,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Blacks Beach,Active,Blacks Beach Drum 20,Mackay,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Broadbeach,Active,Broadbeach Drum 15,Gold Coast,,1,,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Bucasia Beach,Active,Bucasia Beach Drum 2,Mackay,,,,,,1,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Bucasia Beach,Active,Bucasia Beach Drum 6,Mackay,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Bucasia Beach,Active Total,,,,,,,,1,,1,,,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Cylinder Beach,Active,Cylinder Beach Drum 13,Nth Stradbroke Is.,,,,,,,,,,1,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Eimeo Beach,Active,Eimeo Beach Drum 13,Mackay,,,,,,,1,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 1,Cairns,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 2,Cairns,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Ellis Beach,Active Total,,,,,,,1,,,1,,,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 38,Mackay,,,1,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 39,Mackay,,1,,,,,,,,1,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 40,Mackay,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 42,Mackay,,,,,1,,1,,,1,,,3
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Net 2,Mackay,,1,,,,,,,,,,1,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Harbour Beach,Active Total,,,,2,1,,1,,1,,1,2,,1,9
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 31,Townsville,,,,,,1,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 34,Townsville,,,1,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active Total,,,,,1,,,1,,,,,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 15,Bundaberg,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 17,Bundaberg,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Kellys Beach,Active Total,,,,,,,2,,,,,,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Lamberts Beach,Active,Lamberts Beach Drum 25,Mackay,,,1,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Lamberts Beach,Active,Lamberts Beach Drum 26,Mackay,,,,1,2,,,,,1,,,4
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Lamberts Beach,Active,Lamberts Beach Drum 27,Mackay,,,,,2,,,,,,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Lamberts Beach,Active Total,,,,,1,1,4,,,,,1,,,7
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 7,Townsville,,,,1,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Radical Bay,Active,Radical Bay Drum 27,Townsville,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Radical Bay,Active,Radical Bay Drum 28,Townsville,,,,,,,,,,,1,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Radical Bay,Active Total,,,,,,,,,,1,,,1,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 12,Rainbow Beach,,,,,,,,,,,,1,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 4,Rainbow Beach,,,,,,,1,,,1,,,2
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 8,Rainbow Beach,,1,,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Rainbow Beach,Active Total,,,,1,,,,,1,,,1,,1,4
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead,Trinity Beach,Active,Trinity Beach Drum 23,Cairns,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Female,>= 2m,Dead Total,,,,,,4,3,2,8,2,3,5,1,5,2,2,37
+Tiger Shark,2-3m,Shark,Female,>= 2m Total,,,,,,,5,3,3,10,2,6,6,4,6,6,2,53
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Alma Bay,Active,Alma Bay Drum 15,Townsville,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Buchans Point Beach,Active,Buchans Point Beach Drum 8,Cairns,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Ellis Beach,Active,Ellis Beach Drum 3,Cairns,,,,,,,1,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Ellis Beach,Active,Ellis Beach Drum 6,Cairns,,,,1,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Ellis Beach,Active Total,,,,,,1,,,1,,,,,,2
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 40,Mackay,,,1,1,,,,,,,,,2
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Harbour Beach,Active Total,,,,,1,1,,,,,1,,,,3
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 19,Bundaberg,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Kirra Beach,Active,Kirra Beach Net 10,Gold Coast,,,,,,,,,,,,1,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive,Rainbow Beach,Active,Rainbow Beach Drum 2,Rainbow Beach,1,,,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Alive Total,,,,,1,,1,2,1,,1,1,2,,,1,10
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 3,Cairns,,,1,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 43,Mackay,,1,,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Drum 45,Mackay,,,1,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,1,1,,,2
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Harbour Beach,Active Total,,,,1,1,,,,,,1,1,,,4
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 37,Cairns,,,,,,,,,,,,1,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 34,Townsville,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 13,Bundaberg,,,,,,,,,1,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 14,Bundaberg,,,,,,,,,,,1,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 19,Bundaberg,,,,,,,,1,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Kellys Beach,Active Total,,,,,,,,,,1,1,,1,,3
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Lamberts Beach,Active,Lamberts Beach Drum 26,Mackay,,1,1,,,,,,,,,,2
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 8,Townsville,,1,,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Noosa,Active,Noosa Drum 1,Sunshine Coast North,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 2,Rainbow Beach,,,,,,,1,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 4,Rainbow Beach,,,,1,,,1,,,,,,2
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active Total,,,,,,1,,,2,,,,,,3
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Sunrise Beach,Active,Sunrise Beach Drum 7,Sunshine Coast North,,,,,,,,,,1,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 12,Gladstone,,,,1,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 2,Gladstone,1,,,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead,Tannum Sands,Active Total,,,1,,,1,,,,,,,,,2
+Tiger Shark,2-3m,Shark,Male,>= 2m,Dead Total,,,,,1,3,3,2,1,,2,1,3,2,1,1,20
+Tiger Shark,2-3m,Shark,Male,>= 2m Total,,,,,,2,3,4,4,2,,3,2,5,2,1,2,30
+Tiger Shark,2-3m,Shark,Unknown,>= 2m,Alive,Neilson Park,Active,Neilson Park Drum 7,Bundaberg,,,,,1,,,,,,,,1
+Tiger Shark,2-3m,Shark,Unknown,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 17,Bundaberg,,,1,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Unknown,>= 2m,Dead,Neilson Park,Active,Neilson Park Drum 5,Bundaberg,,,1,,,,,,,,,,1
+Tiger Shark,2-3m,Shark,Unknown,>= 2m,Dead Total,,,,,,,2,,,,,,,,,,2
+Tiger Shark,2-3m,Shark,Unknown,>= 2m Total,,,,,,,,2,,1,,,,,,,,3
+Tiger Shark,2-3m,Shark Total,,,,,,,,2,8,9,7,13,2,9,8,9,8,7,4,86
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Bucasia Beach,Not Active,Bucasia Beach Net 1,Mackay,,,,,1,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Ellis Beach,Active,Ellis Beach Drum 4,Cairns,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Florence Bay,Active,Florence Bay Drum 22,Townsville,1,,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Florence Bay,Active,Florence Bay Drum 23,Townsville,,,,,,,,,,,1,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Florence Bay,Active Total,,,1,,,,,,,,,,1,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 40,Mackay,,,,,1,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 41,Mackay,,,1,,,,1,,,,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,1,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Harbour Beach,Active Total,,,,,1,,1,,1,1,,,,,4
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Holloways Beach,Active,Holloways Beach Drum 37,Cairns,1,,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 33,Townsville,,,,,,,,,1,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 12,Bundaberg,,,,,1,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 13,Bundaberg,,,,,1,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Kellys Beach,Active Total,,,,,,,2,,,,,,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Kemp Beach,Active,Kemp Beach Drum 27,Capricorn Coast,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Neilson Park,Active,Neilson Park Drum 4,Bundaberg,,,,,,,,,,,,1,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Neilson Park,Active,Neilson Park Drum 7,Bundaberg,,,,,,,,,1,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Neilson Park,Active,Neilson Park Drum 8,Bundaberg,,1,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Neilson Park,Active Total,,,,1,,,,,,,1,,,1,3
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Noosa,Active,Noosa Drum 1,Sunshine Coast North,,,,,,,,,1,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Noosa,Active,Noosa Drum 2,Sunshine Coast North,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Noosa,Active Total,,,,,,,,,,,1,1,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Ocean Beach,Active,Ocean Beach Drum 35,Nth Stradbroke Is.,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Pallarenda Beach,Active,Pallarenda Beach Drum 43,Townsville,,,,,1,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Radical Bay,Active,Radical Bay Drum 27,Townsville,,,,,,,1,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Rainbow Bay,Active,Rainbow Bay Drum 28,Gold Coast,,1,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Rainbow Bay,Active,Rainbow Bay Drum 31,Gold Coast,,,,,,,,,1,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Rainbow Bay,Active Total,,,,1,,,,,,,1,,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Rainbow Beach,Active,Rainbow Beach Drum 1,Rainbow Beach,,,1,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Rainbow Beach,Active,Rainbow Beach Drum 3,Rainbow Beach,,,,,,,,1,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Rainbow Beach,Active,Rainbow Beach Drum 7,Rainbow Beach,,,,,,,,,1,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Rainbow Beach,Active Total,,,,,1,,,,,1,1,,,,3
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive,Trinity Beach,Active,Trinity Beach Drum 28,Cairns,1,,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Alive Total,,,,,3,2,2,,5,,2,2,5,4,1,1,27
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Alma Bay,Active,Alma Bay Drum 17,Townsville,,,,,,1,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Broadbeach,Active,Broadbeach Drum 15,Gold Coast,,,1,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Broadbeach,Active,Broadbeach Drum 16,Gold Coast,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Broadbeach,Active Total,,,,,1,,,,,,,1,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Emu Park,Active,Emu Park Drum 48,Capricorn Coast,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Farnborough Beach,Active,Farnborough Beach Drum 1,Capricorn Coast,,,,,1,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Florence Bay,Active,Florence Bay Drum 21,Townsville,,1,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Florence Bay,Active,Florence Bay Drum 25,Townsville,,1,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Florence Bay,Active Total,,,,2,,,,,,,,,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Net 1,Mackay,,,,,,,,,2,,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Holloways Beach,Active,Holloways Beach Drum 35,Cairns,,,1,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 31,Townsville,,,,1,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active,Horseshoe Bay Drum 40,Townsville,,,,,,,,,,,,1,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Horseshoe Bay,Active Total,,,,,,1,,,,,,,,1,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Hyatt Regency Resort,Active,Hyatt Regency Resort Drum 24,Sunshine Coast North,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 12,Bundaberg,,,1,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Neilson Park,Active,Neilson Park Drum 6,Bundaberg,,,1,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Nelly Bay,Active,Nelly Bay Drum 13,Townsville,,,1,,,,,,,,,1,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Pallarenda Beach,Active,Pallarenda Beach Drum 45,Townsville,,,,1,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Radical Bay,Active,Radical Bay Drum 26,Townsville,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Radical Bay,Active,Radical Bay Drum 30,Townsville,,,,,,1,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Radical Bay,Active Total,,,,,,,,1,,,,1,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 5,Gladstone,1,,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Tannum Sands,Active,Tannum Sands Drum 8,Gladstone,,,,1,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead,Tannum Sands,Active Total,,,1,,,1,,,,,,,,,2
+Tiger Shark,3-4m,Shark,Female,>= 2m,Dead Total,,,,,1,2,5,3,1,2,,,2,4,,2,22
+Tiger Shark,3-4m,Shark,Female,>= 2m Total,,,,,,4,4,7,3,6,2,2,2,7,8,1,3,49
+Tiger Shark,3-4m,Shark,Male,>= 2m,Alive,Cylinder Beach,Active,Cylinder Beach Drum 22,Nth Stradbroke Is.,,,,,,,,,1,,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Alive,Harbour Beach,Active,Harbour Beach Drum 38,Mackay,,,,1,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Alive,Horseshoe Bay,Active,Horseshoe Bay Drum 34,Townsville,,,,,,,,,,,,1,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Alive,Tannum Sands,Active,Tannum Sands Drum 4,Gladstone,,,,1,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Alive Total,,,,,,,,2,,,,,1,,,1,4
+Tiger Shark,3-4m,Shark,Male,>= 2m,Dead,Cylinder Beach,Active,Cylinder Beach Drum 13,Nth Stradbroke Is.,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Dead,Harbour Beach,Active,Harbour Beach Net 2,Mackay,1,,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Dead,Ocean Beach,Active,Ocean Beach Drum 35,Nth Stradbroke Is.,,,,,,,,,1,,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 6,Rainbow Beach,,,,,,,,,,1,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 7,Rainbow Beach,,1,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Male,>= 2m,Dead,Rainbow Beach,Active Total,,,,1,,,,,,,,1,,,2
+Tiger Shark,3-4m,Shark,Male,>= 2m,Dead Total,,,,,1,1,,,,,,,1,2,,,5
+Tiger Shark,3-4m,Shark,Male,>= 2m Total,,,,,,1,1,,2,,,,,2,2,,1,9
+Tiger Shark,3-4m,Shark,Unknown,>= 2m,Dead,Emu Park,Active,Emu Park Drum 48,Capricorn Coast,,1,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Unknown,>= 2m,Dead,Neilson Park,Active,Neilson Park Drum 3,Bundaberg,,1,,,,,,,,,,,1
+Tiger Shark,3-4m,Shark,Unknown,>= 2m,Dead Total,,,,,,2,,,,,,,,,,,2
+Tiger Shark,3-4m,Shark Total,,,,,,,,5,7,7,5,6,2,2,2,9,10,1,4,60
+Tiger Shark,4-5m,Shark,Female,>= 2m,Alive,Kellys Beach,Active,Kellys Beach Drum 18,Bundaberg,,,,,1,,,,,,,,1
+Tiger Shark,4-5m,Shark,Female,>= 2m,Alive,Radical Bay,Active,Radical Bay Drum 30,Townsville,,,,,,,1,,,,,,1
+Tiger Shark,4-5m,Shark,Female,>= 2m,Alive Total,,,,,,,,,1,,1,,,,,,2
+Tiger Shark,4-5m,Shark,Female,>= 2m,Dead,Ellis Beach,Active,Ellis Beach Drum 1,Cairns,,,,,,1,,,,,,,1
+Tiger Shark,4-5m,Shark,Female,>= 2m Total,,,,,,,,,,1,1,1,,,,,,3
+Tiger Shark Total,,,,,,,,,,16,19,23,17,28,10,16,15,21,18,10,12,205
+Tuna,Non-shark,Other,Unknown,Non-shark,Dead,Mermaid Beach,Active,Mermaid Beach Net 4,Gold Coast,,,,,,,,,,,,1,1
+Tuna,Non-shark,Other,Unknown,Non-shark,Dead,Noosa,Active,Noosa Net 2,Sunshine Coast North,,,,,,,,,,,,1,1
+Tuna,Non-shark,Other,Unknown,Non-shark,Dead,Rainbow Beach,Active,Rainbow Beach Net 2,Rainbow Beach,,,1,3,,,,1,,1,,,6
+Tuna,Non-shark,Other,Unknown,Non-shark,Dead,Rainbow Beach,Active,Rainbow Beach Net 3,Rainbow Beach,,,,,,1,,,,,,,1
+Tuna,Non-shark,Other,Unknown,Non-shark,Dead,Rainbow Beach,Active Total,,,,,1,3,,1,,1,,1,,,7
+Tuna,Non-shark,Other,Unknown,Non-shark,Dead Total,,,,,,,1,3,,1,,1,,1,,2,9
+Unknown Shark,2-3m,Shark,Unknown,>= 2m,Dead,Kellys Beach,Active,Kellys Beach Drum 20,Bundaberg,1,,,,,,,,,,,,1
+Unknown Shark,2-3m,Shark,Unknown,>= 2m,Dead,Neilson Park,Active,Neilson Park Drum 4,Bundaberg,,1,,,,,,,,,,,1
+Unknown Shark,2-3m,Shark,Unknown,>= 2m,Dead Total,,,,,1,1,,,,,,,,,,,2
+White Shark,1-2m,Shark,Female,< 2m,Alive,Main Beach,Active,Main Beach Net 1,Gold Coast,,,,,,,,1,,,,,1
+White Shark,1-2m,Shark,Female,< 2m,Dead,Rainbow Beach,Active,Rainbow Beach Drum 5,Rainbow Beach,,,,,,,,,1,,,,1
+White Shark,1-2m,Shark,Female,< 2m Total,,,,,,,,,,,,,1,1,,,,2
+White Shark,2-3m,Shark,Female,>= 2m,Dead,Cylinder Beach,Active,Cylinder Beach Drum 18,Nth Stradbroke Is.,,,,,,,,1,,,,,1
+White Shark,2-3m,Shark,Female,>= 2m,Dead,North Burleigh Beach,Active,North Burleigh Beach Drum 19,Gold Coast,,,,,,,1,,,,,,1
+White Shark,2-3m,Shark,Female,>= 2m,Dead Total,,,,,,,,,,,1,1,,,,,2
+White Shark,2-3m,Shark,Male,>= 2m,Dead,Miami Beach,Active,Miami Beach Net 5,Gold Coast,,,,,,,,,1,,,,1
+White Shark,2-3m,Shark Total,,,,,,,,,,,,,,1,1,1,,,,3
+White Shark,3-4m,Shark,Male,>= 2m,Alive,Rainbow Bay,Active,Rainbow Bay Drum 35,Gold Coast,,,,,,,1,,,,,,1
+White Shark Total,,,,,,,,,,,,,,,,2,2,2,,,,6
+Zebra Shark,2-3m,Shark,Male,>= 2m,Dead,Kirra Beach,Active,Kirra Beach Net 10,Gold Coast,,1,,,,,,,,,,,1
+Grand Total,,,,,,,,,,53,76,54,51,57,39,40,44,56,48,59,54,631
